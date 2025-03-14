@@ -12,8 +12,6 @@ A simple, fully responsive landing page built with **Tailwind CSS** to practice 
 ## 🛠️ Tech Stack
 - **Frontend**: HTML, Tailwind CSS, JavaScript  
 - **Deployment**: VITE
-- 
-## ⚡ Installation & Usage  
-1. Clone the repository:  
-   ```sh
-   git clone https://github.com/Rivensin/tailwind-portofolio-landing-page.git
+
+## ⚡ Web URL
+- https://rivensin.github.io/tailwind-portofolio-landing-page/
