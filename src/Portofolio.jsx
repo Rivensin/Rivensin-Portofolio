@@ -356,18 +356,18 @@ function Portofolio() {
               <input type="text" id='name' className='w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary' />
             </div>
             <div className="w-full px-4 mb-8">
-              <label htmlFor="email" className='text-base text-primary font-bold '>
+              <label htmlFor="email" className='text-base text-primary font-bold'>
                 Email
               </label>
               <input type="text" id='email' className='w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary' />
             </div>
             <div className="w-full px-4 mb-8">
-              <label htmlFor="pesan" className='text-base text-primary font-bold '>
+              <label htmlFor="pesan" className='text-base text-primary font-bold'>
                 Pesan
               </label>
               <textarea type="text" id='pesan' className='w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32'/>
             </div>
-            <div className="w-full px-4 mb-">
+            <div className="w-full px-4 mb-8">
               <button className='text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-80 shadow-lg transition duration-500'>
                 Kirim
               </button>
