@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master  # Runs this workflow when pushing to the main branch
+    workflow_dispatch:
 
 permissions:
   contents: read
