@@ -1,6 +1,19 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 
 function Portofolio() {
+
+  // const [post,setPost] = useState({x:0, y:0});
+  // const [isHovered,setIsHovered] = useState(false)
+
+  // const handleMouseMove = e => {
+  //   if(!isHovered) return;
+
+  //   const {left,top,width,height} = e.currentTarget.getBoundingClientRect();
+  //   const x = ((e.clientX - left )/width)*100;
+  //   const y = ((e.clientY - top )/width)*100;
+
+  //   setPost({x,y})
+  // }
 
   useEffect(() => {
     //Hamburger
@@ -69,7 +82,6 @@ function Portofolio() {
                 <li className='group'>
                   <a href="#contact" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary'>Contact</a>
                 </li>
-
               </ul>
             </nav>
           </div>
@@ -80,7 +92,7 @@ function Portofolio() {
     {/* Header End */}
 
     {/* Hero Section Start */}
-    <section id='home'>
+    <section id='home' className='pt-28'>
       <div className="container">
         <div className="flex flex-wrap">
           <div className="w-full self-center px-4 lg:w-1/2">
@@ -177,26 +189,40 @@ function Portofolio() {
           </div>
           <div className="w-full px-4 flex flex-wrap justify-center">
             <div className="mb-12 p-4 md:w-1/2 mx-auto">
+              <a href="https://rivensin.github.io/Youtube-Home/" target='_blank'>
+              {/* <div className='w-[704px] h-[396px] overflow-hidden rounded-lg'
+                   onMouseEnter={() => setIsHovered(true)}
+                   onMouseLeave={() => {
+                    setIsHovered(false)
+                    setPost({x:50, y:50})
+                   }}
+                   onMouseMove={handleMouseMove}>
+                <div className='w-full h-full transition duration-300'
+                     style={{backgroundImage:"url('img/portofolio/youtube-project.png')", backgroundSize: isHovered ? '120%' : '100%', backgroundPosition:`${post.x}% ${post.y}%`,}}></div>
+              </div> */}
               <div className="rounded-md shadow-md overflow-hidden">
-                <img src="img/portofolio/663b222726c7f9b37d3c6d05_react.png" alt="React" className='w-full'/>
+                <img src="img/portofolio/youtube-project.png" alt="React" className='w-full'/>
               </div>
               <h3 className='font-semibold text-dark text-xl mt-5 mb-3'>
-                Landing Page Riven - React
+                Landing Page Youtube
               </h3>
-              <p className='font-medium text-base text-secondary'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quasi dolore commodi?
+              <p className='font-medium text-base text-slate-600'>
+              A simple landing page built with HTML & CSS to practice utility classes, layouts, and responsiveness.
               </p>
+              </a>
             </div>
             <div className="mb-12 p-4 md:w-1/2">
-              <div className="rounded-md shadow-md overflow-hidden">
-                <img src="img/portofolio/AppWrite--1-.jpg" alt="appwrite" className='w-full'/>
-              </div>
-              <h3 className='font-semibold text-dark text-xl mt-5 mb-3'>
-                Landing Page Riven - Appwrite
-              </h3>
-              <p className='font-medium text-base text-secondary'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quasi dolore commodi?
-              </p>
+              <a href="https://rivensin.github.io/amazon.com/">
+                <div className="rounded-md shadow-md overflow-hidden">
+                  <img src="img/portofolio/amazon.png" alt="appwrite" className='w-full'/>
+                </div>
+                <h3 className='font-semibold text-dark text-xl mt-5 mb-3'>
+                  Simple Amazon E-Commerce Web 
+                </h3>
+                <p className='font-medium text-base text-slate-600'>
+                  A simple copy Of Amazon E-commerce Website built with HTML,CSS,JavaScript to practice JavaScript feature
+                </p>
+              </a>
             </div>
             <div className="mb-12 p-4 md:w-1/2">
               <div className="rounded-md shadow-md overflow-hidden">
