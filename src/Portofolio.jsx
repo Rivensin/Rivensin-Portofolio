@@ -135,7 +135,7 @@ function Portofolio() {
               Yuk, Belajar Programming bareng Saya!
             </h2>
             <p className='font-medium text-base text-secondary max-w-xl lg:text-lg'>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, aut magni voluptates architecto cum atque tempora?
+              Saya senang berbagi ilmu seputar programming dan teknologi. Mari berkembang bersama! 🚀
             </p>
           </div>
           <div className="w-full px-4 lg:w-1/2">
@@ -143,7 +143,7 @@ function Portofolio() {
               Mari Berteman
             </h3>
             <p className='font-medium text-base text-secondary mb-6 lg:text-lg'>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero sint iusto nemo, ullam eaque reprehenderit laudantium illo beatae?
+              Ayo terhubung dan berbagi ilmu seputar programming! 😊🚀
             </p> 
             <div className='flex items-center'>
             {/* Github */}
@@ -172,7 +172,7 @@ function Portofolio() {
     </section>
     {/* About Section End */}
     
-    {/* Portofolio Sectioin Start */}
+    {/* Portofolio Section Start */}
     <section id='portofolio' className='pt-36 pb-16 bg-slate-100'>
       <div className="container">
         <div className="w-full px-4">
@@ -184,11 +184,22 @@ function Portofolio() {
               Project Terbaru
             </h2>
             <p className='font-medium text-md text-secondary md:text-lg'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam explicabo quam laboriosam quia cumque. Illum ut sapiente obcaecati quos alias.
+            Lihat proyek terbaru saya dalam dunia programming dan web development! 🚀💻
             </p>
           </div>
           <div className="w-full px-4 flex flex-wrap justify-center">
-            <div className="mb-12 p-4 md:w-1/2 mx-auto">
+            <div className="mb-12 p-4 md:w-1/2">
+              <div className="rounded-md shadow-md overflow-hidden">
+                <img src="img/portofolio/blog-app.png" alt="blog-app" className='w-full'/>
+              </div>
+              <h3 className='font-semibold text-dark text-xl mt-5 mb-3'>
+                Blog App
+              </h3>
+              <p className='font-medium text-base text-secondary'>
+              The Blog App is a platform with user authentication, enabling registered users to log in, create and manage their own posts, and explore posts from other users.
+              </p>
+            </div>
+            <div className="mb-12 p-4 md:w-1/2">
               <a href="https://rivensin.github.io/Youtube-Home/" target='_blank'>
               {/* <div className='w-[704px] h-[396px] overflow-hidden rounded-lg'
                    onMouseEnter={() => setIsHovered(true)}
@@ -224,17 +235,7 @@ function Portofolio() {
                 </p>
               </a>
             </div>
-            <div className="mb-12 p-4 md:w-1/2">
-              <div className="rounded-md shadow-md overflow-hidden">
-                <img src="img/portofolio/berita-java.jpg" alt="javascript" className='w-full'/>
-              </div>
-              <h3 className='font-semibold text-dark text-xl mt-5 mb-3'>
-                Landing Page Riven - Javascript
-              </h3>
-              <p className='font-medium text-base text-secondary'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quasi dolore commodi?
-              </p>
-            </div>
+            
             <div className="mb-12 p-4 md:w-1/2">
               <div className="rounded-md shadow-md overflow-hidden">
                 <img src="img/portofolio/tailwindcss.jpg" alt="tailwind" className='w-full'/>
@@ -265,7 +266,7 @@ function Portofolio() {
               Yang Pernah Bekerjasama
             </h2>
             <p className='font-medium text-md text-slate-300 md:text-lg'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, laboriosam placeat! Quam?
+              Beberapa klien yang telah bekerja sama dengan saya dalam berbagai proyek. 🤝✨
             </p>
           </div>
         </div>
@@ -299,7 +300,7 @@ function Portofolio() {
               Tulisan Terkini
             </h2>
             <p className='font-medium text-md text-secondary md:text-lg'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate porro aut aspernatur ratione?
+              Temukan berbagai artikel terbaru seputar programming dan teknologi. 🚀
             </p>
           </div>
           <div className="flex flex-wrap">
@@ -369,7 +370,7 @@ function Portofolio() {
                 Hubungi Kami
               </h2>
               <p className='font-medium text-md text-secondary md:text-lg'>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, iusto!
+                Ingin berkolaborasi atau punya pertanyaan? Jangan ragu untuk menghubungi kami! 📩
               </p>
             </div>
         </div>
@@ -408,7 +409,7 @@ function Portofolio() {
     <footer className="bg-dark pt-12 pb-12">
       <div className="container">
         <div className="flex flex-wrap">
-          <div className="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+          <div className="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3 ">
             <h2 className='font-bold text-white text-4xl mb-5'>Riven</h2>
             <h3 className='font-bold text-2xl mb-2'>Hubungi Kami</h3>
             <p>Rivensinn@gmail.com</p>
