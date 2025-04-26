@@ -2,7 +2,6 @@ import React, {useEffect,useRef} from 'react'
 import { motion, useInView } from 'motion/react';
 
 function Header() {
-  const isNavBar = 
 
   useEffect(() => {
     //Hamburger
@@ -37,7 +36,10 @@ function Header() {
   },[])
 
   return (
-    <header className='bg-transparent absolute top-0 left-0 w-full flex items-center z-10'>
+    <motion.header className='bg-transparent absolute top-0 left-0 w-full flex items-center z-10'
+                   initial={{opacity: 0}}
+                   animate={{opacity: 1}}
+                   transition={{duration: 0.8, ease: 'easeOut'}}>
       <div className="container">
       <div className="flex items-center justify-between relative">
         <div className="px-4">
@@ -73,8 +75,8 @@ function Header() {
           </nav>
         </div>
       </div>
-      </div>
-    </header>
+      </div> 
+    </motion.header>
   )
 }
 
