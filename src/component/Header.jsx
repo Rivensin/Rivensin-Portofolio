@@ -3,6 +3,9 @@ import { motion, useInView } from 'motion/react';
 
 function Header() {
 
+  const ref = useRef(null);
+  const isInView = useInView(ref);
+
   useEffect(() => {
     if(!isInView) return
     //Hamburger
@@ -35,9 +38,6 @@ function Header() {
       window.removeEventListener('scroll',handleScroll);
     }
   },[])
-
-  const ref = useRef(null);
-  const isInView = useInView(ref);
 
   return (
     <motion.header className='bg-transparent absolute top-0 left-0 w-full flex items-center z-10'
