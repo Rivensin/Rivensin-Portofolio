@@ -16,52 +16,74 @@ function Blog() {
               Temukan berbagai artikel terbaru seputar programming dan teknologi. 🚀
             </p>
           </div>
-          <div className="flex flex-wrap">
-            <div className="w-full px-4 lg:w-1/2 xl:w-1/3">
+          <div className="flex flex-wrap justify-center lg:flex-nowrap lg:overflow-x-scroll">
+            <div className="w-full px-4 basis-1/3">
               <div className="bg-white rounded-xl shadow-lg mb-10 overflow-hidden">
-                <img src="img/blog/programming-languages.jpg" alt="programming" className='w-full h-60'/>
-                <div className="py-8 px-8">
-                  <h3>
-                    <a href="#" className='block mb-3 font-semibold text-xl text-dark hover:text-primary truncate '>Tips Belajar Programming</a>
-                  </h3>
-                  <p className='font-medium text-secondary text-base mb-6'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, provident!
-                  </p>
-                  <a href="#" className='font-medium text-sm text-white bg-primary py-2 px-4 rounded-md hover:opacity-80'>
-                    Baca Selengkapnya
-                  </a>
+                <div>
+                  <img src="img/blog/programming-languages.jpg" alt="programming" className='w-full h-60'/>
+                </div>
+                <div className="py-8 px-8 h-60">
+                  <div>
+                    <h3>
+                      <a href="#" className='block mb-3 font-semibold text-xl text-dark hover:text-primary w-[360px] truncate'>Tips Belajar Programming</a>
+                    </h3>
+                  </div>
+                  <div className='w-[320px] sm:w-[360px] h-[96px] mb-4'>
+                    <p className='font-medium text-secondary text-base mb-6 line-clamp-3'>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor ducimus maxime consectetur velit totam, placeat necessitatibus repellendus! Fugiat rerum quas, laborum nobis odio, doloribus corrupti consequuntur eius quia maiores officia explicabo accusamus, sit quaerat deleniti rem quo? Nihil non voluptatum eveniet sunt impedit, tempore eum tempora id voluptate corporis, quod vitae eius repudiandae ullam sit laboriosam. Vitae doloremque impedit rem quod modi excepturi consectetur vel aperiam officiis! Delectus voluptas quas cumque nisi ad quae illum, eveniet perspiciatis.
+                    </p>
+                  </div>
+                  <div>
+                    <a href="#" className='font-medium text-sm text-white bg-primary py-2 px-4 rounded-md hover:opacity-80'>
+                      Baca Selengkapnya
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="w-full px-4 lg:w-1/2 xl:w-1/3">
+            <div className="w-full px-4 basis-1/3">
               <div className="bg-white rounded-xl shadow-lg mb-10 overflow-hidden">
                 <img src="img/blog/figma.jpg" alt="figma" className='w-full h-60'/>
-                <div className="py-8 px-8">
-                  <h3>
-                    <a href="#" className='block mb-3 font-semibold text-xl text-dark hover:text-primary truncate '>Design Menggunakan Figma</a>
-                  </h3>
-                  <p className='font-medium text-secondary text-base mb-6'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis cupiditate odit velit quos.
-                  </p>
-                  <a href="#" className='font-medium text-sm text-white bg-primary py-2 px-4 rounded-md hover:opacity-80'>
-                    Baca Selengkapnya
-                  </a>
+                <div className="py-8 px-8 h-60">
+                  <div>
+                    <h3>
+                      <a href="#" className='block mb-3 font-semibold text-xl text-dark hover:text-primary w-[360px] truncate '>Design Menggunakan Figma</a>
+                    </h3>
+                  </div>
+                  <div className='w-[320px] sm:w-[360px] h-[96px] mb-4'>
+                    <p className='font-medium text-secondary text-base mb-6 line-clamp-3'>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, minus rem natus mollitia blanditiis vero illo nesciunt, ipsam cumque velit corrupti labore expedita omnis. Laudantium eos qui eveniet quisquam atque quas provident perspiciatis, est porro? Quos cumque autem consequuntur eligendi possimus similique molestiae aspernatur, necessitatibus eaque laboriosam dignissimos exercitationem accusamus laudantium saepe excepturi sequi recusandae? Aspernatur, quas blanditiis! Modi, enim tempore, dolorem quibusdam velit fugiat voluptate at ratione aut, neque harum laudantium aspernatur! Explicabo libero quasi quidem.
+                    </p>
+                  </div>
+                  <div>
+                    <a href="#" className='font-medium text-sm text-white bg-primary py-2 px-4 rounded-md hover:opacity-80'>
+                      Baca Selengkapnya
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="w-full px-4 lg:w-1/2 xl:w-1/3">
+            <div className="w-full px-4 basis-1/3">
               <div className="bg-white rounded-xl shadow-lg mb-10 overflow-hidden">
-                <img src="img/blog/vitest.jpg" alt="vitest" className='w-full h-60'/>
-                <div className="py-8 px-8">
-                  <h3>
-                    <a href="#" className='block mb-3 font-semibold text-xl text-dark hover:text-primary truncate '>Vitest Crash Course</a>
-                  </h3>
-                  <p className='font-medium text-secondary text-base mb-6'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quia vel tempore ea beatae quam.
-                  </p>
-                  <a href="#" className='font-medium text-sm text-white bg-primary py-2 px-4 rounded-md hover:opacity-80'>
-                    Baca Selengkapnya
-                  </a>
+                <div>
+                  <img src="img/blog/vitest.jpg" alt="vitest" className='w-full h-60'/>
+                </div>
+                <div className="py-8 px-8 h-60">
+                  <div>
+                    <h3>
+                      <a href="#" className='block mb-3 font-semibold text-xl text-dark hover:text-primary w-[360px] truncate '>Vitest Crash Course</a>
+                    </h3>
+                  </div>
+                  <div className='w-[320px] sm:w-[360px] h-[96px] mb-4'>
+                    <p className='font-medium text-secondary text-base mb-6 line-clamp-3'>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quia vel tempore ea beatae quam.
+                    </p>
+                  </div>
+                  <div>
+                    <a href="#" className='font-medium text-sm text-white bg-primary py-2 px-4 rounded-md hover:opacity-80'>
+                      Baca Selengkapnya
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
