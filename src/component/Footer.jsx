@@ -72,7 +72,7 @@ function Footer() {
               
           </div>
           <p className='font-medium text-xs text-slate-500 text-center'>
-            Dibuat dengan <span className='text-pink-500'>❤</span> oleh <a href="https://www.linkedin.com/in/rivensin-6b8a2a232/" target="_blank" className='font-bold text-primary'>Rivensin</a>, menggunakan <a href="https://tailwindcss.com/" target="_blank" className='font-bold text-sky-500'>Tailwind CSS</a> 
+            Dibuat dengan <span className='text-pink-500'>❤</span> oleh <a href="https://www.linkedin.com/in/rivensin-6b8a2a232/" target="_blank" className='font-bold text-primary'>Rivensin</a>, menggunakan <a href="https://tailwindcss.com/" target="_blank" className='font-bold text-sky-500'>Tailwind CSS</a> & <a href="https://motion.dev/" target="_blank" className='font-bold text-pink-600'>FramerMotion</a>  
           </p>
         </div>
       </div>

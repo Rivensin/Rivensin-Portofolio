@@ -16,10 +16,10 @@ function Blog() {
               Temukan berbagai artikel terbaru seputar programming dan teknologi. 🚀
             </p>
           </div>
-          <div className="flex flex-wrap justify-center lg:flex-nowrap lg:overflow-x-scroll">
-            <div className="w-full px-4 basis-1/3">
+          <div className="flex overflow-x-scroll">
+            <div className="w-full px-4">
               <div className="bg-white rounded-xl shadow-lg mb-10 overflow-hidden">
-                <div>
+                <div className='w-full'>
                   <img src="img/blog/programming-languages.jpg" alt="programming" className='w-full h-60'/>
                 </div>
                 <div className="py-8 px-8 h-60">
@@ -41,7 +41,7 @@ function Blog() {
                 </div>
               </div>
             </div>
-            <div className="w-full px-4 basis-1/3">
+            <div className="w-full px-4">
               <div className="bg-white rounded-xl shadow-lg mb-10 overflow-hidden">
                 <img src="img/blog/figma.jpg" alt="figma" className='w-full h-60'/>
                 <div className="py-8 px-8 h-60">
@@ -63,7 +63,7 @@ function Blog() {
                 </div>
               </div>
             </div>
-            <div className="w-full px-4 basis-1/3">
+            <div className="w-full px-4">
               <div className="bg-white rounded-xl shadow-lg mb-10 overflow-hidden">
                 <div>
                   <img src="img/blog/vitest.jpg" alt="vitest" className='w-full h-60'/>
