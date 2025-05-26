@@ -14,4 +14,4 @@ A simple, fully responsive landing page built with **Tailwind CSS** to practice 
 - **Deployment**: VITE
 
 ## ⚡ Web URL
-- https://rivensin.github.io/tailwind-portofolio-landing-page/
+- https://rivensin.github.io/Rivensin-Portofolio/
