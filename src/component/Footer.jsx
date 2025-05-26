@@ -2,8 +2,8 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer className="bg-dark pt-12 pb-12">
-      <div className="container">
+    <div className="container bg-dark">
+      <footer className="pt-12 pb-12">
         <div className="flex flex-wrap">
           <div className="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3 ">
             <h2 className='font-bold text-white text-4xl mb-5'>Riven</h2>
@@ -75,8 +75,8 @@ function Footer() {
             Dibuat dengan <span className='text-pink-500'>❤</span> oleh <a href="https://www.linkedin.com/in/rivensin-6b8a2a232/" target="_blank" className='font-bold text-primary'>Rivensin</a>, menggunakan <a href="https://tailwindcss.com/" target="_blank" className='font-bold text-sky-500'>Tailwind CSS</a> & <a href="https://motion.dev/" target="_blank" className='font-bold text-pink-600'>FramerMotion</a>  
           </p>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
   )
 }
 

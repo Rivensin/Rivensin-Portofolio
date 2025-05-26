@@ -2,8 +2,8 @@ import React from 'react'
 
 function Portofolio() {
   return (
-    <section id='portofolio' className='pt-36 pb-16 bg-slate-100'>
-      <div className="container">
+    <div className="container bg-slate-100">
+      <section id='portofolio' className='pt-36 pb-16 '>
         <div className="w-full px-4">
           <div className="max-w-xl mx-auto text-center mb-16">
             <h4 className='font-semibold text-lg text-primary mb-2'>
@@ -54,7 +54,7 @@ function Portofolio() {
               </a>
             </div>
             <div className="mb-12 p-4 md:w-1/2">
-              <a href="https://rivensin.github.io/amazon.com/">
+              <a href="https://rivensin.github.io/amazon-copy.com/">
                 <div className="rounded-md shadow-md overflow-hidden">
                   <img src="img/portofolio/amazon.png" alt="appwrite" className='w-full'/>
                 </div>
@@ -79,8 +79,8 @@ function Portofolio() {
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   )
 }
 

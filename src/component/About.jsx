@@ -4,7 +4,7 @@ function About() {
   return (
     <section id="about" className='pt-32 pb-32'>
       <div className="container">
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap lg:mx-2 xl:mx-7 3xl:ml-48">
           <div className="w-full px-4 mb-10 lg:w-1/2">
             <h4 className='font-bold uppercase text-primary text-lg mb-3'>
               Tentang Saya

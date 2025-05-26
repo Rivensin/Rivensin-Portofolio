@@ -21,7 +21,15 @@ export default {
         dark : '#0f172a',
         secondary : '#oklch(0.554 0.046 257.417)',
         wpu : '#bada55'
-      }
+      },
+      screens : {
+        '3xl': '1600px',
+        '4xl': '1920px'
+      },
+      maxWidth : {
+        '3xl': '1600px',
+        '4xl': '1920px',
+      } 
     },
   },
   plugins: [

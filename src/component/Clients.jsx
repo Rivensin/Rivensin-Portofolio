@@ -2,8 +2,8 @@ import React from 'react'
 
 function Clients() {
   return (
-    <section id='clients' className="pt-36 pb-32 bg-slate-800">
-      <div className="container">
+    <div className="container bg-slate-800">
+      <section id='clients' className="pt-36 pb-32 "> 
         <div className="w-full px-4">
           <div className="mx-auto text-center mb-16">
             <h4 className='font-semibold text-lg text-primary mb-2'>
@@ -31,8 +31,9 @@ function Clients() {
             <img src="img/clients/telkom.svg" alt="telkom" className='w-[125px] h-[68.75px] object-contain'/>
           </a>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
+    
   )
 }
 

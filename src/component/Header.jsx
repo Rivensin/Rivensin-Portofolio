@@ -43,7 +43,7 @@ function Header() {
       <div className="container">
       <div className="flex items-center justify-between relative">
         <div className="px-4">
-          <a href="#home" className='font-bold text-lg text-primary block py-6'>Rivensin</a>
+          <a href="#home" className='font-bold text-lg md:text-2xl xl:text-3xl text-primary block py-6'>Rivensin</a>
         </div>
         <div className="flex items-center justify-center px-4">
           <button id='hamburger' name='hamburger' type='button' className='block absolute right-4 lg:hidden'>

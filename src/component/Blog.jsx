@@ -2,8 +2,8 @@ import React from 'react'
 
 function Blog() {
   return (
-    <section id="blog" className="pt-36 pb-32 bg-slate-100">
-      <div className="container">
+    <div className="container bg-slate-100">
+      <section id="blog" className="pt-36 pb-32">
         <div className="w-full px-4">
           <div className="max-w-xl mx-auto text-center mb-16">
             <h4 className='font-semibold text-lg text-primary mb-2'>
@@ -89,8 +89,9 @@ function Blog() {
             </div>
           </div>  
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
+    
   )
 }
 
