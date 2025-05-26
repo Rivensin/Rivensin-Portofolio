@@ -1,4 +1,4 @@
-# Tailwind CSS Landing Page 🌟
+# Rivensin-Portofolio 🌟
 
 ## 📝 Description
 A simple, fully responsive landing page built with **Tailwind CSS** to practice utility classes, layouts, and responsiveness.
