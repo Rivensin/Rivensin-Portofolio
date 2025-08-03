@@ -2,11 +2,11 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className="container bg-dark">
+    <div className="bg-dark">
       <footer className="pt-12 pb-12">
         <div className="flex flex-wrap">
           <div className="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3 ">
-            <h2 className='font-bold text-white text-4xl mb-5'>Riven</h2>
+            <h2 className='font-bold text-white text-4xl mb-5'>Rivensin</h2>
             <h3 className='font-bold text-2xl mb-2'>Hubungi Kami</h3>
             <p>Rivensinn@gmail.com</p>
             <p>Jl Riau</p>
