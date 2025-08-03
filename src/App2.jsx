@@ -8,7 +8,7 @@ function App2() {
 
   return (
     <>
-      <div className='container'>
+      <div className=''>
         <h1 className='font-bold text-8xl text-center my-10'>MARI BELAJAR <span className='bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent'>TAILWIND CSS</span></h1>
         <div className='flex justify-center'>
           <span>Light</span>
@@ -47,7 +47,7 @@ function App2() {
           <p className='p-5 text-2xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis necessitatibus adipisci aliquid eos rerum eius illum, saepe rem nam distinctio quia perferendis suscipit aspernatur provident minus, repudiandae, sunt doloremque velit obcaecati neque earum odio! Vero voluptatem excepturi corporis repellendus labore nam architecto molestiae aut dicta. Consequatur, commodi. Sit veniam, optio tenetur nihil animi possimus, placeat dolores voluptate incidunt ipsa nesciunt corporis iure officia reiciendis velit consequuntur quod suscipit ex rerum. Ducimus, esse veniam, officia at beatae culpa magni aliquid nesciunt corporis, voluptates voluptas rem harum numquam. Quae, quisquam! Eligendi error facilis eos repellendus obcaecati. Animi voluptates accusantium, excepturi aut voluptas omnis incidunt molestias illo assumenda fugiat, architecto repellat quis corporis dolore? Beatae, ea. Nam, est aspernatur repellat consequuntur vitae placeat officia eum deserunt facilis illo suscipit ullam ducimus atque a velit in, quos vero rem, libero quae. Officia consectetur quas dolore veniam facilis, a voluptatum distinctio molestiae incidunt temporibus sequi explicabo impedit quia adipisci excepturi amet consequatur ducimus ipsam ipsum debitis cum nihil dolor cupiditate? Hic, amet blanditiis ducimus cum autem id veniam deserunt dolore modi incidunt, in quae illo dolor. Reprehenderit nam nihil eius sint quos, tempora officia modi ea delectus quasi autem beatae quibusdam neque placeat repellat? Natus!</p>
         </div>
 
-        <div className='container px-3 py-8 max-w-lg mx-auto mt-32 sm:max-w-2xl md:max-w-3xl lg:max-w-5xl shadow-lg rounded-2xl overflow-hidden'>  
+        <div className='px-3 py-8 max-w-lg mx-auto mt-32 sm:max-w-2xl md:max-w-3xl lg:max-w-5xl shadow-lg rounded-2xl overflow-hidden'>  
           <img src='img/laptop.jpg' alt='tailwind'></img>
           <h2 className='text-slate-700 text-md sm:text-lg md:text-xl lg:text-2xl font-semibold mt-4'>MARI BELAJAR TAILWIND BERSAMA</h2>
           <p className='text-slate-500 text-sm sm:text-md md:text-lg lg:text-xl'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam cum in porro. Excepturi quisquam at id? Dolor porro aliquid enim sequi praesentium sint odit adipisci perferendis! Soluta rem asperiores provident?</p> 
@@ -56,7 +56,7 @@ function App2() {
           </div>
         </div>
 
-        <div className='container flex px-3 py-3 mb-2 max-w-lg mx-auto mt-32 sm:max-w-2xl md:max-w-3xl lg:max-w-5xl shadow-lg'>  
+        <div className='flex px-3 py-3 mb-2 max-w-lg mx-auto mt-32 sm:max-w-2xl md:max-w-3xl lg:max-w-5xl shadow-lg'>  
           <div className='flex-1'>
             <h2 className='text-slate-700 text-md sm:text-lg md:text-xl lg:text-2xl font-semibold mt-2'>MARI BELAJAR TAILWIND BERSAMA</h2>
             <p className='text-slate-500 text-sm sm:text-md md:text-lg lg:text-xl'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam cum in porro. Excepturi quisquam at id? Dolor porro aliquid enim sequi praesentium sint odit adipisci perferendis! Soluta rem asperiores provident?</p> 

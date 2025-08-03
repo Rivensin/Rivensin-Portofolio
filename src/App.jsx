@@ -26,7 +26,7 @@ function App() {
   // }
 
   return (
-    <>    
+    <>   
     <Header />
     <InViewWrapper><Hero /></InViewWrapper> 
     <InViewWrapper><About /></InViewWrapper>

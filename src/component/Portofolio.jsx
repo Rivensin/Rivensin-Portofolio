@@ -2,8 +2,8 @@ import React from 'react'
 
 function Portofolio() {
   return (
-    <div className="bg-slate-100">
-      <section id='portofolio' className='pt-36 pb-16 '>
+    <div className="container bg-slate-100">
+      <section id='portofolio' className='pt-36 pb-16 pr-4'>
         <div className="w-full px-4">
           <div className="max-w-xl mx-auto text-center mb-16">
             <h4 className='font-semibold text-lg text-primary mb-2'>

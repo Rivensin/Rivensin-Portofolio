@@ -36,12 +36,11 @@ function Header() {
   },[])
 
   return (
-    <motion.header className='bg-transparent absolute top-0 left-0 w-full flex items-center z-10'
+    <motion.header className='w-full bg-transparent absolute top-0 left-0 flex items-center z-10'
                    initial={{opacity: 0}}
                    animate={{opacity: 0.8}}
                    transition={{duration: 0.8, ease: 'easeOut'}}>
-      <div className="container">
-      <div className="flex items-center justify-between relative">
+      <div className="flex items-center justify-between relative w-full">
         <div className="px-4">
           <a href="#home" className='font-bold text-lg md:text-2xl xl:text-3xl text-primary block py-6'>Rivensin</a>
         </div>
@@ -75,7 +74,7 @@ function Header() {
           </nav>
         </div>
       </div>
-      </div> 
+      {/* </div>  */}
     </motion.header>
   )
 }
