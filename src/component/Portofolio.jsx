@@ -29,6 +29,19 @@ function Portofolio() {
                   Dlooti, a cake shop product catalog website based on Next.js and Firebase, makes it easy for users to browse products like soft cookies, brownies, and custom cakes, and leave reviews after logging in.
                 </p>
               </a>
+            </div>
+            <div className="mb-12 px-4 md:w-1/2 rounded-lg pb-2">
+              <a href="https://dlooti-tracking-package.vercel.app/" alt='Dlooti Tracking App'>
+                <div className="rounded-md shadow-md overflow-hidden">
+                  <img src="img/portofolio/dlooti-tracking.png" alt="Dlooti Tracking App" className='w-full'/>
+                </div>
+                <h3 className='font-semibold text-dark text-xl 2xl:text-2xl mt-5 mb-3'>
+                  Dlooti Tracking Delivery <span className='text-slate-500 italic text-lg'>(Agustus 2025 - September 2025)</span>
+                </h3>
+                <p className='font-normal text-base text-slate-600 italic'>
+                  Next.js + Firebase app enabling real-time driver tracking, geocoded addresses, and delivery status management to give the information about delivery to the client.
+                </p>
+              </a>
             </div>   
             <div className="mb-12 px-4 md:w-1/2 rounded-lg pb-2">
               <a href="https://rivensin.github.io/React-Blog-App/" alt='React Blog App'>
