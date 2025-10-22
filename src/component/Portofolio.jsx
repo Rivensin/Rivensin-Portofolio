@@ -18,7 +18,7 @@ function Portofolio() {
           </div>
           <div className="w-full flex flex-wrap justify-center">
             <div className="mb-12 px-4 md:w-1/2 rounded-lg pb-2">
-              <a href="https://dlooti.vercel.app/" alt='Dlooti App'>
+              <a href="https://dlooti.vercel.app/" target='_blank' alt='Dlooti App'>
                 <div className="rounded-md shadow-md overflow-hidden">
                   <img src="img/portofolio/dlooti.png" alt="Dlooti App" className='w-full'/>
                 </div>
@@ -31,7 +31,7 @@ function Portofolio() {
               </a>
             </div>
             <div className="mb-12 px-4 md:w-1/2 rounded-lg pb-2">
-              <a href="https://dlooti-tracking-package.vercel.app/" alt='Dlooti Tracking App'>
+              <a href="https://dlooti-tracking-package.vercel.app/" target='_blank' alt='Dlooti Tracking App'>
                 <div className="rounded-md shadow-md overflow-hidden">
                   <img src="img/portofolio/dlooti-tracking.png" alt="Dlooti Tracking App" className='w-full'/>
                 </div>
@@ -44,7 +44,7 @@ function Portofolio() {
               </a>
             </div>   
             <div className="mb-12 px-4 md:w-1/2 rounded-lg pb-2">
-              <a href="https://rivensin.github.io/React-Blog-App/" alt='React Blog App'>
+              <a href="https://rivensin.github.io/React-Blog-App/" target='_blank' alt='React Blog App'>
                 <div className="rounded-md shadow-md overflow-hidden">
                   <img src="img/portofolio/blog-app.png" alt="React Blog App" className='w-full'/>
                 </div>
@@ -80,7 +80,7 @@ function Portofolio() {
               </a>
             </div>
             <div className="mb-12 px-4 md:w-1/2 rounded-lg pb-2">
-              <a href="https://rivensin.github.io/amazon-copy.com/" alt="Amazon Clone">
+              <a href="https://rivensin.github.io/amazon-copy.com/" target='_blank' alt="Amazon Clone">
                 <div className="rounded-md shadow-md overflow-hidden">
                   <img src="img/portofolio/amazon.png" alt="Amazon Clone" className='w-full'/>
                 </div>

@@ -1,4 +1,4 @@
-import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Blog() {
   return (
@@ -19,23 +19,23 @@ function Blog() {
           <div className="w-full px-4">
             <div className="bg-white rounded-xl shadow-lg mb-10 overflow-hidden">
               <div className='w-full'>
-                <img src="img/blog/programming-languages.jpg" alt="programming" className='w-full h-60'/>
+                <img src="img/blog/How-to-Become-a-Front-End-Developer-in-2020.png" alt="programming" className='w-full h-60'/>
               </div>
               <div className="py-8 px-8 h-60">
                 <div>
                   <h3>
-                    <a href="#" className='block mb-3 font-semibold text-xl text-dark hover:text-primary w-[360px] truncate'>Tips Belajar Programming</a>
+                    <Link to="/My-Frontend-Dev-Learning-Journey" className='block mb-3 font-semibold text-xl text-dark hover:text-primary w-[360px] truncate duration-700 transition-all'>My Frontend Dev Learning Journey</Link>
                   </h3>
                 </div>
                 <div className='w-full h-[96px] mb-4'>
-                  <p className='font-medium text-secondary text-base mb-6 line-clamp-3 2xl:line-clamp-4'>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor ducimus maxime consectetur velit totam, placeat necessitatibus repellendus! Fugiat rerum quas, laborum nobis odio, doloribus corrupti consequuntur eius quia maiores officia explicabo accusamus, sit quaerat deleniti rem quo? Nihil non voluptatum eveniet sunt impedit, tempore eum tempora id voluptate corporis, quod vitae eius repudiandae ullam sit laboriosam. Vitae doloremque impedit rem quod modi excepturi consectetur vel aperiam officiis! Delectus voluptas quas cumque nisi ad quae illum, eveniet perspiciatis.
+                  <p className='font-medium text-secondary text-base mb-6 line-clamp-3 2xl:line-clamp-4 text-justify'>
+                    Menjadi seorang Frontend Developer membutuhkan kombinasi keterampilan teknis, logika berpikir, dan kepekaan terhadap desain. Seorang pengembang frontend bertanggung jawab membangun tampilan serta interaksi yang langsung dirasakan pengguna di sebuah aplikasi atau website. Untuk memulai perjalanan di bidang ini, calon developer perlu memahami dasar-dasar HTML, CSS, dan JavaScript, sebelum berlanjut ke framework modern seperti React, Next.js, atau Vue. Selain kemampuan koding, penting juga untuk menguasai versi kontrol (Git & GitHub), memahami responsive design, serta memiliki pengetahuan dasar tentang API dan cara kerja browser. Tidak kalah penting, seorang frontend developer juga perlu mengembangkan kemampuan problem-solving, logika algoritma, serta komunikasi tim yang baik agar mampu menerjemahkan ide menjadi pengalaman pengguna yang fungsional dan menarik.
                   </p>
                 </div>
                 <div>
-                  <a href="#" className='font-medium text-sm text-white bg-primary py-2 px-4 rounded-md hover:opacity-80'>
+                  <Link to="/My-Frontend-Dev-Learning-Journey" className='font-medium text-sm text-white bg-primary py-2 px-4 rounded-md hover:opacity-80 duration-700 transition-all'>
                     Baca Selengkapnya
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -46,16 +46,16 @@ function Blog() {
               <div className="py-8 px-8 h-60">
                 <div>
                   <h3>
-                    <a href="#" className='block mb-3 font-semibold text-xl text-dark hover:text-primary w-[360px] truncate '>Design Menggunakan Figma</a>
+                    <a href="#" className='block mb-3 font-semibold text-xl text-dark hover:text-primary w-[360px] truncate duration-700 transition-all'>Design Menggunakan Figma</a>
                   </h3>
                 </div>
                 <div className='w-full h-[96px] mb-4'>
-                  <p className='font-medium text-secondary text-base mb-6 line-clamp-3 2xl:line-clamp-4'>
+                  <p className='font-medium text-secondary text-base mb-6 line-clamp-3 2xl:line-clamp-4 text-justify'>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, minus rem natus mollitia blanditiis vero illo nesciunt, ipsam cumque velit corrupti labore expedita omnis. Laudantium eos qui eveniet quisquam atque quas provident perspiciatis, est porro? Quos cumque autem consequuntur eligendi possimus similique molestiae aspernatur, necessitatibus eaque laboriosam dignissimos exercitationem accusamus laudantium saepe excepturi sequi recusandae? Aspernatur, quas blanditiis! Modi, enim tempore, dolorem quibusdam velit fugiat voluptate at ratione aut, neque harum laudantium aspernatur! Explicabo libero quasi quidem.
                   </p>
                 </div>
                 <div>
-                  <a href="#" className='font-medium text-sm text-white bg-primary py-2 px-4 rounded-md hover:opacity-80'>
+                  <a href="#" className='font-medium text-sm text-white bg-primary py-2 px-4 rounded-md hover:opacity-80 duration-700 transition-all'>
                     Baca Selengkapnya
                   </a>
                 </div>
@@ -70,16 +70,16 @@ function Blog() {
               <div className="py-8 px-8 h-60">
                 <div>
                   <h3>
-                    <a href="#" className='block mb-3 font-semibold text-xl text-dark hover:text-primary w-[360px] truncate '>Vitest Crash Course</a>
+                    <a href="#" className='block mb-3 font-semibold text-xl text-dark hover:text-primary w-[360px] truncate duration-700 transition-all '>Vitest Crash Course</a>
                   </h3>
                 </div>
                 <div className='w-full h-[96px] mb-4'>
-                  <p className='font-medium text-secondary text-base mb-6 line-clamp-3 2xl:line-clamp-4'>
+                  <p className='font-medium text-secondary text-base mb-6 line-clamp-3 2xl:line-clamp-4 text-justify'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quia vel tempore ea beatae quam.
                   </p>
                 </div>
                 <div>
-                  <a href="#" className='font-medium text-sm text-white bg-primary py-2 px-4 rounded-md hover:opacity-80'>
+                  <a href="#" className='font-medium text-sm text-white bg-primary py-2 px-4 rounded-md hover:opacity-80 duration-700 transition-all'>
                     Baca Selengkapnya
                   </a>
                 </div>

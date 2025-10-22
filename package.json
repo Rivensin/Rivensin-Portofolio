@@ -1,5 +1,5 @@
 {
-  "homepage": "https://rivensin.github.io/rivensin-portofolio",
+  "homepage": "https://rivensin.github.io/Rivensin-Portofolio",
   "name": "tailwindcss",
   "private": true,
   "version": "0.0.0",
@@ -17,7 +17,8 @@
     "esbuild": "^0.25.0",
     "motion": "^12.9.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.9.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",

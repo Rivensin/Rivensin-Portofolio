@@ -53,22 +53,22 @@ function Header() {
           <nav id='nav-menu' className='hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none'>
             <ul className='block lg:flex'>
               <li className='group'>
-                <a href="#home" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Beranda</a>
+                <a href="/" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Beranda</a>
               </li>
               <li className='group'>
-                <a href="#about" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Tentang Saya</a>
+                <a href="/#about" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Tentang Saya</a>
               </li>
               <li className='group'>
-                <a href="#portofolio" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Portofolio</a>
+                <a href="/#portofolio" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Portofolio</a>
               </li>
               <li className='group'>
-                <a href="#clients" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Clients</a>
+                <a href="/#clients" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Clients</a>
               </li>
               <li className='group'>
-                <a href="#blog" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Blog</a>
+                <a href="/#blog" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Blog</a>
               </li>
               <li className='group'>
-                <a href="#contact" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Contact</a>
+                <a href="/#contact" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Contact</a>
               </li>
             </ul>
           </nav>
