@@ -56,19 +56,19 @@ function Header() {
                 <a href="/" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Beranda</a>
               </li>
               <li className='group'>
-                <a href="/#about" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Tentang Saya</a>
+                <a href="#about" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Tentang Saya</a>
               </li>
               <li className='group'>
-                <a href="/#portofolio" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Portofolio</a>
+                <a href="#portofolio" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Portofolio</a>
               </li>
               <li className='group'>
-                <a href="/#clients" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Clients</a>
+                <a href="#clients" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Clients</a>
               </li>
               <li className='group'>
-                <a href="/#blog" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Blog</a>
+                <a href="#blog" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Blog</a>
               </li>
               <li className='group'>
-                <a href="/#contact" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Contact</a>
+                <a href="#contact" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Contact</a>
               </li>
             </ul>
           </nav>
