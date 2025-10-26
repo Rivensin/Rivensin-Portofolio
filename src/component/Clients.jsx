@@ -2,16 +2,16 @@ import React from 'react'
 
 function Clients() {
   return (
-    <section id='clients' className="pt-36 pb-32 pr-4 container bg-slate-800"> 
+    <section id='clients' className="pt-36 pb-32 container bg-slate-800"> 
       <div className="w-full px-4">
         <div className="mx-auto text-center mb-16">
-          <h4 className='font-semibold text-lg text-primary mb-2'>
+          <h4 className='main-title'>
             Clients
           </h4>
-          <h2 className='font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl'>
+          <h2 className='sub-title text-white'>
             Yang Pernah Bekerjasama
           </h2>
-          <p className='font-medium text-md text-slate-300 md:text-lg'>
+          <p className='detail-title text-white'>
             Beberapa klien yang telah bekerja sama dengan saya dalam berbagai proyek. 🤝✨
           </p>
         </div>

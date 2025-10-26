@@ -1,5 +1,5 @@
 {
-  "homepage": "https://rivensin.github.io/Rivensin-Portofolio",
+  "homepage": "https://rivensin.github.io/Rivensin-Portofolio/",
   "name": "tailwindcss",
   "private": true,
   "version": "0.0.0",
@@ -15,10 +15,13 @@
   "dependencies": {
     "@tailwindcss/line-clamp": "^0.4.4",
     "esbuild": "^0.25.0",
+    "install": "^0.13.0",
     "motion": "^12.9.2",
+    "npm": "^11.6.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router-dom": "^7.9.4"
+    "react-router-dom": "^7.9.4",
+    "react-router-hash-link": "^2.4.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
@@ -34,6 +37,6 @@
     "globals": "^15.14.0",
     "postcss": "^8.5.3",
     "tailwindcss": "^3.4.17",
-    "vite": "^6.1.0"
+    "vite": "^7.1.12"
   }
 }

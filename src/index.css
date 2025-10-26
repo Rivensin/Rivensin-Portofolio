@@ -20,20 +20,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* @layer components {
-  .grid-card{
-    @apply bg-blue-500 aspect-[4/3] md:aspect-[3/4] xl:aspect-[4/3] rounded-lg overflow-hidden relative hover:scale-95 transition-all duration-500
-  }
-
-  .grid-card-image{
-    @apply bg-cover w-full h-full bg-center absolute group-hover:scale-125 group-hover:rotate-12 transition-all duration-500
-  }
-}
-
-#toggle:checked ~ label div.toggle-circle{
-  @apply translate-x-4
-} */
-
 body{
   font-family: 'inter', sans-serif;
   overflow-x: hidden; 
@@ -55,17 +41,77 @@ body{
   @apply -rotate-45;
 }
 
+[id]{
+  scroll-margin-top:80px;
+}
+
 .navbar-fixed{
   @apply fixed z-[9999] bg-white; 
   backdrop-filter: blur(10px);
   box-shadow: inset 0 -1px 0 0 rgba(0,0,0,0.3)
 }
 
-[id]{
-  scroll-margin-top:80px;
+.main-title{
+  @apply font-semibold text-lg text-primary mb-2
 }
 
-a {
+.sub-title{
+  @apply font-bold text-3xl mb-4 sm:text-4xl lg:text-5xl
+}
+
+.detail-title{
+  @apply font-medium text-secondary md:text-lg
+}
+
+.portofolio-img{
+  @apply rounded-md shadow-md overflow-hidden;
+}
+
+.portofolio-title{
+  @apply font-semibold text-dark text-xl 2xl:text-2xl mt-5 mb-3
+}
+
+.portofolio-title-date{
+  @apply text-slate-500 italic text-lg
+}
+
+.portofolio-detail{
+  @apply font-normal text-base text-slate-600 italic
+}
+
+.blog-card{
+  @apply bg-white rounded-xl shadow-lg mb-10 overflow-hidden
+}
+
+.blog-picture{
+  @apply w-full h-60 lg:h-72  
+}
+
+.blog-detail{
+  @apply py-8 px-8 h-60
+}
+
+.blog-link{
+  @apply lg:text-xl mb-3 font-semibold text-dark hover:text-primary w-96 truncate duration-700 transition-all
+}
+
+.blog-desc-card{
+  @apply w-full h-[96px] my-3
+}
+
+.blog-desc{
+  @apply font-medium text-secondary mb-6 text-sm line-clamp-4 text-justify leading-relaxed
+}
+
+.blog-link-bottom{
+  @apply font-medium text-sm text-white bg-primary py-2 px-4 rounded-md hover:opacity-80 duration-700 transition-all
+}
+
+.contact-input{
+  @apply w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary
+}
+
+a { 
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;

@@ -11,16 +11,14 @@ function Hero() {
           <h2 className='text-secondary font-medium text-lg lg:text-2xl mb-5'>
             Front End Developer
           </h2>
-          <div className="pr-4">
             <p className='font-medium text-secondary leading-relaxed 2xl:text-lg text-justify mb-2'>
               Selamat datang di portofolio saya! Portofolio ini merupakan kumpulan proyek-proyek yang saya kerjakan menggunakan teknologi seperti ReactJS, Next.js. 
             </p>
             <p className='font-medium text-secondary leading-relaxed 2xl:text-lg text-justify mb-10'>
               Setiap proyek yang saya tampilkan merefleksikan proses belajar, eksplorasi, dan semangat saya dalam dunia pengembangan web.
             </p>
-          </div>
           <a href="https://wa.me/+6282384090452" target='_blank'>
-            <div className='text-base font-semibold text-white bg-primary w-40 h-11  rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out flex justify-center items-center'>
+            <div className='text-base font-semibold text-white bg-primary w-40 h-11 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out flex justify-center items-center'>
             <img src='img/icon/whatsapp.png' alt='WhatsApp' className='w-5 h-5 mr-2'></img>
             <div>Hubungi saya</div>
             </div>

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import InViewWrapper from "../component/InViewWrapper"
+import { HashLink } from "react-router-hash-link"
 
 export default function FrontEndJourney() {
   return (
@@ -14,22 +15,25 @@ export default function FrontEndJourney() {
       </InViewWrapper>
       <div className='relative xl:grid xl:grid-cols-[300px_1fr_300px] xl:min-h-screen'>
         <InViewWrapper>
-          <aside className='xl:sticky xl:h-screen xl:left-0 xl:top-20 xl:bottom-0 pr-4'> 
+          <aside className='xl:sticky xl:h-screen xl:left-0 xl:top-20 xl:bottom-0'> 
             <div className='font-medium text-secondary md:text-lg text-center mb-6 xl:mb-10 flex flex-col justify-center items-start gap-2 xl:gap-4'>
-              <div className="font-bold border-b-2 border-slate-500 w-full hover:border-b-4 transition-all ease-in-out">Table of Contents</div>
-              <a href='#frontenddev' className="text-black hover:underline hover:text-blue-500 duration-300 transition-all ease-in-out">Kebutuhan Frontend Developer</a>
-              <a href='#htmlcss' className="text-black hover:underline hover:text-blue-500 duration-300 transition-all ease-in-out">Belajar HTML & CSS</a>
-              <a href='#js' className="text-black hover:underline hover:text-blue-500 duration-300 transition-all ease-in-out">Belajar Javascript</a>
-              <a href='#tailwind' className="text-black hover:underline hover:text-blue-500 duration-300 transition-all ease-in-out">Belajar TailwindCSS</a>
-              <a href='#reactjs' className="text-black hover:underline hover:text-blue-500 duration-300 transition-all ease-in-out">Belajar ReactJS</a>
-              <a href='#ts' className="text-black hover:underline hover:text-blue-500 duration-300 transition-all ease-in-out">Belajar TypeScript</a>
-              <a href='#nextjs' className="text-black hover:underline hover:text-blue-500 duration-300 transition-all ease-in-out">Belajar NextJS</a>
+              <div className="font-bold border-b-2 border-slate-500 w-full hover:border-b-4 transition-all ease-in-out">
+                Table of Contents
+              </div>
+              <HashLink smooth to='#frontenddev' className="text-black hover:underline hover:text-blue-500 duration-300 transition-all ease-in-out">Kebutuhan Frontend Developer</HashLink>
+              <HashLink smooth to='#htmlcss' className="text-black hover:underline hover:text-blue-500 duration-300 transition-all ease-in-out">Belajar HTML & CSS</HashLink>
+              <HashLink smooth to='#js' className="text-black hover:underline hover:text-blue-500 duration-300 transition-all ease-in-out">Belajar Javascript</HashLink>
+              <HashLink smooth to='#tailwind' className="text-black hover:underline hover:text-blue-500 duration-300 transition-all ease-in-out">Belajar TailwindCSS</HashLink>
+              <HashLink smooth to='#reactjs' className="text-black hover:underline hover:text-blue-500 duration-300 transition-all ease-in-out">Belajar ReactJS</HashLink>
+              <HashLink smooth to='#ts' className="text-black hover:underline hover:text-blue-500 duration-300 transition-all ease-in-out">Belajar TypeScript</HashLink>
+              <HashLink smooth to='#nextjs' className="text-black hover:underline hover:text-blue-500 duration-300 transition-all ease-in-out">Belajar NextJS</HashLink>
+              <div className="block border-b-2 border-slate-500 w-full">
+              </div>
             </div>
         </aside>
         </InViewWrapper>
-        
 
-        <div className='xl:px-8 pr-4'> 
+        <div className='xl:px-8'> 
           <div className='font-medium text-secondary text-justify mb-10'>
             <InViewWrapper>
               <p id='frontenddev' className='font-bold text-2xl'>
@@ -119,11 +123,14 @@ export default function FrontEndJourney() {
         </div>      
 
         <InViewWrapper>
-          <aside className='relative xl:sticky xl:h-screen xl:top-20 xl:left-0 xl:bottom-0 pr-4'> 
+          <aside className='relative xl:sticky xl:h-screen xl:top-20 xl:left-0 xl:bottom-0'> 
             <div className='font-medium text-lg text-secondary md:text-lg text-center mb-10'>
               <div className="border-b-2 border-slate-500 w-full hover:border-b-4 transition-all ease-in-out">
                 Artikel Lainnya : 
               </div>
+              <p className='mt-4 leading-relaxed'>
+                Coming Soon
+              </p>
               </div>
           </aside>     
         </InViewWrapper>

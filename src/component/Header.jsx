@@ -1,7 +1,11 @@
-import React, {useEffect,useRef} from 'react'
-import { motion, useInView } from 'motion/react';
+import { useEffect } from 'react'
+import { motion } from 'motion/react';
+import { Link, useLocation } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 function Header() {
+  const location = useLocation()
+  const home = location.pathname === '/'
 
   useEffect(() => {
     //Hamburger
@@ -42,7 +46,13 @@ function Header() {
                    transition={{duration: 0.8, ease: 'easeOut'}}>
       <div className="flex items-center justify-between relative w-full">
         <div className="px-4">
-          <a href="#home" className='font-bold text-lg md:text-2xl xl:text-3xl text-primary block py-6'>Rivensin</a>
+          {home 
+          ?
+            <HashLink smooth to="/Rivensin-Portofolio/#home" className='font-bold text-lg md:text-2xl xl:text-3xl text-primary block py-6'>Rivensin</HashLink>
+          :
+            <a href="/#home" className='font-bold text-lg md:text-2xl xl:text-3xl text-primary block py-6'>Rivensin</a>
+          }
+          
         </div>
         <div className="flex items-center justify-center px-4">
           <button id='hamburger' name='hamburger' type='button' className='block absolute right-4 lg:hidden'>
@@ -52,29 +62,55 @@ function Header() {
           </button>
           <nav id='nav-menu' className='hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none'>
             <ul className='block lg:flex'>
-              <li className='group'>
-                <a href="/" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Beranda</a>
-              </li>
-              <li className='group'>
-                <a href="#about" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Tentang Saya</a>
-              </li>
-              <li className='group'>
-                <a href="#portofolio" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Portofolio</a>
-              </li>
-              <li className='group'>
-                <a href="#clients" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Clients</a>
-              </li>
-              <li className='group'>
-                <a href="#blog" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Blog</a>
-              </li>
-              <li className='group'>
-                <a href="#contact" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Contact</a>
-              </li>
+              {home 
+              ? 
+                <>
+                  <li className='group'>
+                    <HashLink smooth to="#home" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Beranda</HashLink>
+                  </li>
+                  <li className='group'>
+                    <HashLink smooth to="#about" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Tentang Saya</HashLink>
+                  </li>
+                  <li className='group'>
+                    <HashLink smooth to="#portofolio" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Portofolio</HashLink>
+                  </li>
+                  <li className='group'>
+                    <HashLink smooth to="#clients" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Clients</HashLink>
+                  </li>
+                  <li className='group'>
+                    <HashLink smooth to="#blog" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Blog</HashLink>
+                  </li>
+                  <li className='group'>
+                    <HashLink smooth to="#contact" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Contact</HashLink>
+                  </li>
+                </> 
+              : 
+                <>
+                  <li className='group'>
+                    <HashLink smooth to="/Rivensin-Portofolio/#home" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Beranda</HashLink>
+                  </li>
+                  <li className='group'>
+                    <HashLink smooth to="/Rivensin-Portofolio/#about" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Tentang Saya</HashLink>
+                  </li>
+                  <li className='group'>
+                    <HashLink smooth to="/Rivensin-Portofolio/#portofolio" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Portofolio</HashLink>
+                  </li>
+                  <li className='group'>
+                    <HashLink smooth to="/Rivensin-Portofolio/#clients" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Clients</HashLink>
+                  </li>
+                  <li className='group'>
+                    <HashLink smooth to="/Rivensin-Portofolio/#blog" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Blog</HashLink>
+                  </li>
+                  <li className='group'>
+                    <HashLink smooth to="/Rivensin-Portofolio/#contact" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Contact</HashLink>
+                  </li>
+                </> 
+              }
+              
             </ul>
           </nav>
         </div>
       </div>
-      {/* </div>  */}
     </motion.header>
   )
 }
