@@ -48,7 +48,7 @@ function Header() {
         <div className="px-4">
           {home 
           ?
-            <HashLink smooth to="/Rivensin-Portofolio/#home" className='font-bold text-lg md:text-2xl xl:text-3xl text-primary block py-6'>Rivensin</HashLink>
+            <HashLink smooth to="/#home" className='font-bold text-lg md:text-2xl xl:text-3xl text-primary block py-6'>Rivensin</HashLink>
           :
             <a href="/#home" className='font-bold text-lg md:text-2xl xl:text-3xl text-primary block py-6'>Rivensin</a>
           }
@@ -87,22 +87,22 @@ function Header() {
               : 
                 <>
                   <li className='group'>
-                    <HashLink smooth to="/Rivensin-Portofolio/#home" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Beranda</HashLink>
+                    <HashLink smooth to="/#home" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Beranda</HashLink>
                   </li>
                   <li className='group'>
-                    <HashLink smooth to="/Rivensin-Portofolio/#about" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Tentang Saya</HashLink>
+                    <HashLink smooth to="/#about" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Tentang Saya</HashLink>
                   </li>
                   <li className='group'>
-                    <HashLink smooth to="/Rivensin-Portofolio/#portofolio" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Portofolio</HashLink>
+                    <HashLink smooth to="/#portofolio" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Portofolio</HashLink>
                   </li>
                   <li className='group'>
-                    <HashLink smooth to="/Rivensin-Portofolio/#clients" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Clients</HashLink>
+                    <HashLink smooth to="/#clients" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Clients</HashLink>
                   </li>
                   <li className='group'>
-                    <HashLink smooth to="/Rivensin-Portofolio/#blog" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Blog</HashLink>
+                    <HashLink smooth to="/#blog" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Blog</HashLink>
                   </li>
                   <li className='group'>
-                    <HashLink smooth to="/Rivensin-Portofolio/#contact" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Contact</HashLink>
+                    <HashLink smooth to="/#contact" className='text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:underline duration-200'>Contact</HashLink>
                   </li>
                 </> 
               }
