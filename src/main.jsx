@@ -3,10 +3,10 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import Home from './pages/Home.jsx'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import FrontEndJourney from './pages/FrontEndJourney.jsx'
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path:"/",
     element: <App />,
@@ -15,12 +15,11 @@ const router = createBrowserRouter([
       {path: "/My-Frontend-Dev-Learning-Journey", element: <FrontEndJourney /> },
     ]
   }
-  ],
-  { basename: "/Rivensin-Portofolio"}
+  ]
 )
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  <StrictMode>  
     <RouterProvider router={router} />
   </StrictMode>,
 )
