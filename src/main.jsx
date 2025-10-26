@@ -6,6 +6,9 @@ import Home from './pages/Home.jsx'
 import { createHashRouter, RouterProvider } from 'react-router-dom';
 import FrontEndJourney from './pages/FrontEndJourney.jsx'
 
+const GITHUB_PAGES_REPO_NAME = '/Rivensin-Portofolio'; 
+const basename = process.env.NODE_ENV === 'production' ? GITHUB_PAGES_REPO_NAME : ''; 
+
 const router = createHashRouter([
   {
     path:"/",
@@ -15,7 +18,8 @@ const router = createHashRouter([
       {path: "/My-Frontend-Dev-Learning-Journey", element: <FrontEndJourney /> },
     ]
   }
-  ]
+  ],
+  {basename: basename}
 )
 
 createRoot(document.getElementById('root')).render(
