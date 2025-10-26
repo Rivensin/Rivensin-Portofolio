@@ -88,7 +88,7 @@ body{
 }
 
 .blog-picture{
-  @apply w-full h-60 lg:h-72  
+  @apply w-96 lg:w-full h-60 lg:h-72 object-cover flex-shrink-0 max-w-none;
 }
 
 .blog-detail{

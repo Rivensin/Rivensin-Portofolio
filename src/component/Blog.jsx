@@ -18,7 +18,7 @@ function Blog() {
         <div className="flex overflow-x-scroll">
           <div className="w-full px-4">
             <div className="blog-card">
-              <div className='w-full'>
+              <div>
                 <img src="img/blog/How-to-Become-a-Front-End-Developer-in-2020.png" alt="programming" className='blog-picture'/>
               </div>
               <div className="blog-detail">
@@ -42,7 +42,9 @@ function Blog() {
           </div>
           <div className="w-full px-4">
             <div className="blog-card">
-              <img src="img/blog/figma.jpg" alt="figma" className='blog-picture'/>
+              <div>
+                <img src="img/blog/figma.jpg" alt="figma" className='blog-picture'/>
+              </div>
               <div className="blog-detail">
                 <div>
                   <h3>
