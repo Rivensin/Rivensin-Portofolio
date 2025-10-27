@@ -115,6 +115,18 @@ body{
   @apply w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary
 }
 
+.blog-page-nav{
+  @apply text-black hover:underline hover:text-blue-500 duration-300 transition-all ease-in-out
+}
+
+.blog-page-title{
+  @apply font-bold text-2xl mt-8
+}
+
+.blog-page-desc{
+  @apply mt-4 leading-relaxed
+}
+
 a { 
   font-weight: 500;
   color: #646cff;

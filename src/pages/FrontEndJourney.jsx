@@ -4,7 +4,7 @@ import { HashLink } from "react-router-hash-link"
 
 export default function FrontEndJourney() {
   return (
-    <section id="blog" className="pt-36 pb-32 px-4 container xl:container bg-slate-100 overflow-hidden">
+    <section id="blog" className="pt-36 pb-32 px-4 container xl:container bg-slate-100">
       <InViewWrapper>
         <h4 className='font-semibold text-2xl xl:text-3xl text-primary mb-4 text-center'>
           Blog
@@ -14,23 +14,21 @@ export default function FrontEndJourney() {
         </h2>
       </InViewWrapper>
       <div className='relative xl:grid xl:grid-cols-[300px_1fr_300px] xl:min-h-screen'>
-        <InViewWrapper>
-          <aside className='xl:sticky xl:h-screen xl:left-0 xl:top-20 xl:bottom-0'> 
-            <div className='font-medium text-secondary md:text-lg text-center mb-6 xl:mb-10 flex flex-col justify-center items-start gap-2 xl:gap-4'>
-              <div className="font-bold border-b-2 border-slate-500 w-full hover:border-b-4 transition-all ease-in-out">
-                Table of Contents
-              </div>
-              <HashLink smooth to='#frontenddev' className="text-black hover:underline hover:text-blue-500 duration-300 transition-all ease-in-out">Kebutuhan Frontend Developer</HashLink>
-              <HashLink smooth to='#htmlcss' className="text-black hover:underline hover:text-blue-500 duration-300 transition-all ease-in-out">Belajar HTML & CSS</HashLink>
-              <HashLink smooth to='#js' className="text-black hover:underline hover:text-blue-500 duration-300 transition-all ease-in-out">Belajar Javascript</HashLink>
-              <HashLink smooth to='#tailwind' className="text-black hover:underline hover:text-blue-500 duration-300 transition-all ease-in-out">Belajar TailwindCSS</HashLink>
-              <HashLink smooth to='#reactjs' className="text-black hover:underline hover:text-blue-500 duration-300 transition-all ease-in-out">Belajar ReactJS</HashLink>
-              <HashLink smooth to='#ts' className="text-black hover:underline hover:text-blue-500 duration-300 transition-all ease-in-out">Belajar TypeScript</HashLink>
-              <HashLink smooth to='#nextjs' className="text-black hover:underline hover:text-blue-500 duration-300 transition-all ease-in-out">Belajar NextJS</HashLink>
-              <div className="block border-b-2 border-slate-500 w-full">
-              </div>
+        <InViewWrapper className="xl:sticky xl:top-20 xl:h-96">
+          <aside className='font-medium text-secondary md:text-lg text-center mb-6 xl:mb-10 flex flex-col justify-center items-start gap-2 xl:gap-4'> 
+            <div className="font-bold border-b-2 border-slate-500 w-full hover:border-b-4 transition-all ease-in-out">
+              Table of Contents
             </div>
-        </aside>
+            <HashLink smooth to='#frontenddev' className="blog-page-nav">Kebutuhan Frontend Developer</HashLink>
+            <HashLink smooth to='#htmlcss' className="blog-page-nav">Belajar HTML & CSS</HashLink>
+            <HashLink smooth to='#js' className="blog-page-nav">Belajar Javascript</HashLink>
+            <HashLink smooth to='#tailwind' className="blog-page-nav">Belajar TailwindCSS</HashLink>
+            <HashLink smooth to='#reactjs' className="blog-page-nav">Belajar ReactJS</HashLink>
+            <HashLink smooth to='#ts' className="blog-page-nav">Belajar TypeScript</HashLink>
+            <HashLink smooth to='#nextjs' className="blog-page-nav">Belajar NextJS</HashLink>
+            <div className="block border-b-2 border-slate-500 w-full">
+            </div>
+          </aside>
         </InViewWrapper>
 
         <div className='xl:px-8'> 
@@ -39,20 +37,20 @@ export default function FrontEndJourney() {
               <p id='frontenddev' className='font-bold text-2xl'>
                 Kebutuhan untuk menjadi Frontend Developer
               </p>
-              <p className='mt-4 leading-relaxed'>
+              <p className='blog-page-desc'>
                 Saya akan membagikan sumber-sumber pembelajaraan saya dalam menjadi Frontend Developer. Seorang pengembang frontend membutuhkan kombinasi keterampilan teknis, logika berpikir, dan kepekaan terhadap desain dan bertanggung jawab membangun tampilan serta interaksi yang langsung dirasakan pengguna di sebuah aplikasi atau website. 
               </p>
 
-              <p className='mt-4 leading-relaxed'>
+              <p className='blog-page-desc'>
                 Diperlu untuk memahami dasar-dasar HTML, CSS, dan JavaScript, sebelum berlanjut ke framework modern seperti React, Angular, ataupun Vue. Penting juga untuk menguasai versi kontrol (Git & GitHub), memahami responsive design, serta memiliki pengetahuan dasar tentang API dan cara kerja browser.
               </p>
             </InViewWrapper>
 
             <InViewWrapper>
-              <p id='htmlcss' className='font-bold text-2xl mt-8'>
+              <p id='htmlcss' className='blog-page-title'>
                 Belajar HTML & CSS
               </p>    
-              <p className='mt-4 leading-relaxed'>
+              <p className='blog-page-desc'>
                 HTML (HyperText Markup Language) dan CSS (Cascading Style Sheets) adalah dua fondasi utama dalam pembuatan halaman web. HTML berfungsi sebagai struktur dan kerangka dari sebuah halaman, di mana elemen seperti teks, gambar, tautan, dan tombol disusun agar dapat ditampilkan di browser. Sementara itu, CSS berperan untuk mengatur tampilan dan gaya visual dari elemen-elemen tersebut, seperti warna, ukuran, posisi, serta tata letaknya. Dengan kata lain, HTML menentukan apa yang muncul di halaman, sedangkan CSS mengatur bagaimana tampilan halaman itu terlihat menarik dan responsif di berbagai perangkat.
               </p>
               <p className='mt-1'>
@@ -61,10 +59,10 @@ export default function FrontEndJourney() {
             </InViewWrapper>
 
             <InViewWrapper>
-              <p id='js' className='font-bold text-2xl mt-8'>
+              <p id='js' className='blog-page-title'>
                 Belajar Javascript
               </p>    
-              <p className='mt-4 leading-relaxed'>
+              <p className='blog-page-desc'>
                 JavaScript adalah bahasa pemrograman yang digunakan untuk membuat halaman web menjadi interaktif dan dinamis. Jika HTML berperan sebagai struktur dan CSS mengatur tampilan, maka JavaScript memberi “nyawa” pada sebuah website dengan menambahkan logika dan perilaku, seperti animasi, validasi formulir, perubahan konten secara real-time, hingga komunikasi dengan server melalui API. Bahasa ini berjalan langsung di browser pengguna dan menjadi inti dari pengembangan web modern
               </p>
               <p className='mt-1'>
@@ -73,10 +71,10 @@ export default function FrontEndJourney() {
             </InViewWrapper>
 
             <InViewWrapper>
-              <p id='tailwind' className='font-bold text-2xl mt-8'>
+              <p id='tailwind' className='blog-page-title'>
                 Belajar TailwindCSS
               </p>    
-              <p className='mt-4 leading-relaxed'>
+              <p className='blog-page-desc'>
                 Tailwind CSS adalah framework CSS berbasis utility-first yang memungkinkan pengembang membangun tampilan website dengan cepat menggunakan kelas-kelas siap pakai langsung di dalam HTML.Alih-alih menulis CSS kustom untuk setiap elemen Tailwind menyediakan kumpulan kelas kecil seperti flex, text-center, atau bg-blue-500 yang bisa digabungkan untuk menciptakan desain responsif dan konsisten.
               </p>
               <p className='mt-1'>
@@ -85,10 +83,10 @@ export default function FrontEndJourney() {
             </InViewWrapper>
 
             <InViewWrapper>
-              <p id='reactjs' className='font-bold text-2xl mt-8'>
+              <p id='reactjs' className='blog-page-title'>
                 Belajar ReactJS
               </p>    
-              <p className='mt-4 leading-relaxed'>
+              <p className='blog-page-desc'>
                 React.js adalah library JavaScript yang dikembangkan oleh Facebook untuk membangun antarmuka pengguna (user interface) yang interaktif, cepat, dan dinamis. React menggunakan konsep komponen — potongan kode yang dapat digunakan kembali — sehingga pengembang bisa membuat aplikasi web yang terstruktur dan mudah dikelola. Dengan fitur seperti Virtual DOM
               </p>
               <p className='mt-1'>
@@ -97,10 +95,10 @@ export default function FrontEndJourney() {
             </InViewWrapper>
 
             <InViewWrapper>
-              <p id='ts' className='font-bold text-2xl mt-8'>
+              <p id='ts' className='blog-page-title'>
                 Belajar TypeScript
               </p>    
-              <p className='mt-4 leading-relaxed'>
+              <p className='blog-page-desc'>
                 TypeScript adalah superset dari JavaScript yang menambahkan fitur static typing (pengetikan statis) untuk meningkatkan keandalan dan keterbacaan kode. Dengan TypeScript, pengembang dapat menentukan tipe data untuk variabel, parameter, dan fungsi, sehingga kesalahan dapat terdeteksi lebih awal sebelum aplikasi dijalankan.
               </p>
               <p className='mt-1'>
@@ -109,10 +107,10 @@ export default function FrontEndJourney() {
             </InViewWrapper>
 
             <InViewWrapper>
-              <p id='nextjs' className='font-bold text-2xl mt-8'>
+              <p id='nextjs' className='blog-page-title'>
                 Belajar NextJS
               </p>    
-              <p className='mt-4 leading-relaxed'>
+              <p className='blog-page-desc'>
                 Next.js adalah framework React yang dirancang untuk mempermudah pengembangan aplikasi web modern dengan performa tinggi. Framework ini menyediakan fitur bawaan seperti Server-Side Rendering (SSR), Static Site Generation (SSG), dan API Routes, yang memungkinkan pengembang menggabungkan frontend dan backend dalam satu proyek. Next.js juga memiliki sistem App Router modern yang mendukung layout bersarang, data fetching fleksibel, serta optimasi otomatis seperti image optimization dan code splitting. Dengan integrasi mudah ke layanan seperti Vercel, Next.js menjadi salah satu pilihan utama untuk membangun aplikasi web cepat, SEO-friendly, dan mudah di-deploy.
               </p>
               <p className='mt-1'>
@@ -122,19 +120,19 @@ export default function FrontEndJourney() {
           </div>
         </div>      
 
-        <InViewWrapper>
-          <aside className='relative xl:sticky xl:h-screen xl:top-20 xl:left-0 xl:bottom-0'> 
-            <div className='font-medium text-lg text-secondary md:text-lg text-center mb-10'>
-              <div className="border-b-2 border-slate-500 w-full hover:border-b-4 transition-all ease-in-out">
-                Artikel Lainnya : 
-              </div>
-              <p className='mt-4 leading-relaxed'>
-                Coming Soon
-              </p>
-              </div>
+        <InViewWrapper className='xl:sticky xl:top-20 xl:h-96'>
+          <aside className='font-medium text-lg text-secondary md:text-lg text-center mb-10'> 
+            <div className="border-b-2 border-slate-500 w-full hover:border-b-4 transition-all ease-in-out">
+              Artikel Lainnya : 
+            </div>
+            <p className='blog-page-desc'>
+              Coming Soon
+            </p>
           </aside>     
         </InViewWrapper>
       </div>
+
+      
     </section>
   )
 }
