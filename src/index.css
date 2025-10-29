@@ -67,6 +67,10 @@ body{
   @apply font-medium text-secondary md:text-lg
 }
 
+.portofolio-card{
+  @apply mb-12 px-4 md:w-1/2 rounded-lg pb-2 hover:translate-y-2 hover:shadow-lg transition-all ease-in-out duration-700 
+}
+
 .portofolio-img{
   @apply rounded-md shadow-md overflow-hidden;
 }
@@ -84,19 +88,19 @@ body{
 }
 
 .blog-card{
-  @apply bg-white rounded-xl shadow-lg mb-10 overflow-hidden
+  @apply bg-white rounded-xl shadow-lg mb-10 overflow-hidden group-hover:bg-blue-300/60 group-hover:translate-y-2 transition-all ease-in-out duration-700 
 }
 
 .blog-picture{
-  @apply w-96 lg:w-full h-60 lg:h-72 object-cover flex-shrink-0 max-w-none;
+  @apply w-96 lg:w-full h-60 lg:h-72 object-cover flex-shrink-0 max-w-none group-hover:opacity-80;
 }
 
 .blog-detail{
   @apply py-8 px-8 h-60
 }
 
-.blog-link{
-  @apply lg:text-xl mb-3 font-semibold text-dark hover:text-primary w-96 truncate duration-700 transition-all
+.blog-title{
+  @apply max-w-md lg:text-xl mb-3 font-semibold text-dark truncate group-hover:text-slate-500 duration-700 ease-in-out transition-all
 }
 
 .blog-desc-card{
@@ -104,11 +108,11 @@ body{
 }
 
 .blog-desc{
-  @apply font-medium text-secondary mb-6 text-sm line-clamp-4 text-justify leading-relaxed
+  @apply font-medium text-black mb-6 text-sm line-clamp-4 text-justify leading-relaxed group-hover:text-slate-500 duration-700 ease-in-out transition-all
 }
 
 .blog-link-bottom{
-  @apply font-medium text-sm text-white bg-primary py-2 px-4 rounded-md hover:opacity-80 duration-700 transition-all
+  @apply text-center w-44 font-medium text-sm text-white bg-primary py-2 px-4 rounded-md group-hover:opacity-80 duration-700 transition-all
 }
 
 .contact-input{

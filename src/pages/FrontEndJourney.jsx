@@ -5,6 +5,7 @@ import { HashLink } from "react-router-hash-link"
 export default function FrontEndJourney() {
   return (
     <section id="blog" className="pt-36 pb-32 px-4 container xl:container bg-slate-100">
+      <title>My Frontend Developer Learning Journey</title>
       <InViewWrapper>
         <h4 className='font-semibold text-2xl xl:text-3xl text-primary mb-4 text-center'>
           Blog
@@ -125,14 +126,17 @@ export default function FrontEndJourney() {
             <div className="border-b-2 border-slate-500 w-full hover:border-b-4 transition-all ease-in-out">
               Artikel Lainnya : 
             </div>
-            <p className='blog-page-desc'>
-              Coming Soon
+            <p className='mt-4 rounded-xl mb-10 overflow-hidden group hover:shadow-lg hover:translate-y-2 transition-all ease-in-out duration-700'>
+              <Link to='/Malice' target="_blank">
+                <div>
+                  <img src='img/blog/Malice.jpg'></img>
+                  <div className="mt-1 text-black">Review Novel 'Malice' by Keigo Higashino</div>
+                </div>
+              </Link>
             </p>
           </aside>     
         </InViewWrapper>
       </div>
-
-      
     </section>
   )
 }

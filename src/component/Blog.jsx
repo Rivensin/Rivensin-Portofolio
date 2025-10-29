@@ -15,17 +15,16 @@ function Blog() {
             Temukan berbagai artikel terbaru seputar programming dan teknologi. 🚀
           </p>
         </div>
-        <div className="flex overflow-x-scroll">
-          <div className="w-full px-4">
+        <div className="flex overflow-x-scroll gap-4">
+          <div className="w-full group">
+            <Link to="/My-Frontend-Dev-Learning-Journey" target='_blank'>
             <div className="blog-card">
               <div>
                 <img src="img/blog/How-to-Become-a-Front-End-Developer-in-2020.png" alt="programming" className='blog-picture'/>
               </div>
               <div className="blog-detail">
-                <div>
-                  <h3>
-                    <Link to="/My-Frontend-Dev-Learning-Journey" className='text-md blog-link'>My Frontend Developer Learning Journey</Link>
-                  </h3>
+                <div className='text-md blog-title'>
+                  My Frontend Developer Learning Journey
                 </div>
                 <div className='blog-desc-card'>
                   <p className='blog-desc'>
@@ -33,61 +32,62 @@ function Blog() {
                   </p>
                 </div>
                 <div>
-                  <Link to="/My-Frontend-Dev-Learning-Journey" className='blog-link-bottom'>
-                    Baca Selengkapnya
-                  </Link>
+                  <div className='blog-link-bottom'>
+                  Baca Selengkapnya
+                  </div>
                 </div>
               </div>
             </div>
+            </Link>
           </div>
-          <div className="w-full px-4">
-            <div className="blog-card">
-              <div>
-                <img src="img/blog/figma.jpg" alt="figma" className='blog-picture'/>
-              </div>
-              <div className="blog-detail">
+          
+          <div className="w-full group">
+            <Link to="/Malice" target='_blank'>
+              <div className="blog-card">
                 <div>
-                  <h3>
-                    <Link href="#" className='text-md blog-link'>Design Menggunakan Figma</Link>
-                  </h3>
+                  <img src="img/blog/Malice.jpg" alt="Malice" className='blog-picture'/>
                 </div>
-                <div className='blog-desc-card'>
-                  <p className='blog-desc'>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, minus rem natus mollitia blanditiis vero illo nesciunt, ipsam cumque velit corrupti labore expedita omnis. Laudantium eos qui eveniet quisquam atque quas provident perspiciatis, est porro? Quos cumque autem consequuntur eligendi possimus similique molestiae aspernatur, necessitatibus eaque laboriosam dignissimos exercitationem accusamus laudantium saepe excepturi sequi recusandae? Aspernatur, quas blanditiis! Modi, enim tempore, dolorem quibusdam velit fugiat voluptate at ratione aut, neque harum laudantium aspernatur! Explicabo libero quasi quidem.
-                  </p>
-                </div>
-                <div>
-                  <Link href="#" className='blog-link-bottom'>
+                <div className="blog-detail">
+                  <div className='text-md blog-title'>
+                    Review Novel 
+                    'Malice' by Keigo Higashino
+                  </div>
+                  <div className='blog-desc-card'>
+                    <p className='blog-desc'>
+                    Aku membaca Malice karena penasaran dengan karya Keigo Higashino sebagai salah satu penulis misteri terbaik dari Jepang. Banyak yang bilang kisahnya bukan sekadar mencari siapa pembunuhnya, tapi kenapa seseorang bisa melakukan pembunuhan. Awalnya karena rekomendasi dari orang yang telah membaca buku misteri dari Akiyoshi Rikako.
+                    </p>
+                  </div>
+                  <div className='blog-link-bottom'>
                     Baca Selengkapnya
-                  </Link>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
-          <div className="w-full px-4">
-            <div className="blog-card">
-              <div>
-                <img src="img/blog/vitest.jpg" alt="vitest" className='blog-picture'/>
-              </div>
-              <div className="blog-detail">
+
+          <div className="w-full group">
+            <Link to="#" target='_blank'>
+              <div className="blog-card">
                 <div>
-                  <h3>
-                    <Link href="#" className='text-md blog-link'>Vitest Crash Course</Link>
-                  </h3>
+                  <img src="img/blog/vitest.jpg" alt="vitest" className='blog-picture'/>
                 </div>
-                <div className='blog-desc-card'>
-                  <p className='blog-desc'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quia vel tempore ea beatae quam.
-                  </p>
-                </div>
-                <div>
-                  <Link href="#" className='blog-link-bottom'>
+                <div className="blog-detail">
+                  <div className='text-md blog-title'>
+                    Vitest Crash Course
+                  </div>
+                  <div className='blog-desc-card'>
+                    <p className='blog-desc'>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quia vel tempore ea beatae quam.
+                    </p>
+                  </div>
+                  <div className='blog-link-bottom'>
                     Baca Selengkapnya
-                  </Link>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
+
         </div>  
       </div>
     </section>
