@@ -131,6 +131,10 @@ body{
   @apply mt-4 leading-relaxed
 }
 
+.blog-artikel{
+  @apply w-full h-56 sm:h-64 md:h-72 lg:h-80 xl:h-36 object-cover
+}
+
 a { 
   font-weight: 500;
   color: #646cff;

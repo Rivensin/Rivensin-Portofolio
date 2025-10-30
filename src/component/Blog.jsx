@@ -49,8 +49,7 @@ function Blog() {
                 </div>
                 <div className="blog-detail">
                   <div className='text-md blog-title'>
-                    Review Novel 
-                    'Malice' by Keigo Higashino
+                    Review Novel 'Malice' by Keigo Higashino
                   </div>
                   <div className='blog-desc-card'>
                     <p className='blog-desc'>
@@ -66,18 +65,18 @@ function Blog() {
           </div>
 
           <div className="w-full group">
-            <Link to="#" target='_blank'>
+            <Link to="/HolyMother" target='_blank'>
               <div className="blog-card">
                 <div>
-                  <img src="img/blog/vitest.jpg" alt="vitest" className='blog-picture'/>
+                  <img src="img/blog/holy-mother.jpg" alt="holymother" className='blog-picture'/>
                 </div>
                 <div className="blog-detail">
                   <div className='text-md blog-title'>
-                    Vitest Crash Course
+                    Review Novel 'Holy Mother' by Akiyoshi Rikako
                   </div>
                   <div className='blog-desc-card'>
                     <p className='blog-desc'>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quia vel tempore ea beatae quam.
+                      Kalau kamu mencari novel misteri psikologis yang tenang di permukaan tapi kejam di dalam, Holy Mother adalah pilihan yang tepat. Akiyoshi Rikako menulis kisah ini seperti seseorang yang sedang membuka lapisan demi lapisan dari jiwa manusia — sampai kamu tak yakin lagi mana yang benar, mana yang salah.
                     </p>
                   </div>
                   <div className='blog-link-bottom'>

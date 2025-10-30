@@ -15,7 +15,7 @@ export default function FrontEndJourney() {
         </h2>
       </InViewWrapper>
       <div className='relative xl:grid xl:grid-cols-[300px_1fr_300px] xl:min-h-screen'>
-        <InViewWrapper className="xl:sticky xl:top-20 xl:h-96">
+        <InViewWrapper className="xl:sticky xl:top-20 xl:h-screen">
           <aside className='font-medium text-secondary md:text-lg text-center mb-6 xl:mb-10 flex flex-col justify-center items-start gap-2 xl:gap-4'> 
             <div className="font-bold border-b-2 border-slate-500 w-full hover:border-b-4 transition-all ease-in-out">
               Table of Contents
@@ -121,7 +121,7 @@ export default function FrontEndJourney() {
           </div>
         </div>      
 
-        <InViewWrapper className='xl:sticky xl:top-20 xl:h-96'>
+        <InViewWrapper className='xl:sticky xl:top-20 xl:h-screen'>
           <aside className='font-medium text-lg text-secondary md:text-lg text-center mb-10'> 
             <div className="border-b-2 border-slate-500 w-full hover:border-b-4 transition-all ease-in-out">
               Artikel Lainnya : 
@@ -129,8 +129,17 @@ export default function FrontEndJourney() {
             <p className='mt-4 rounded-xl mb-10 overflow-hidden group hover:shadow-lg hover:translate-y-2 transition-all ease-in-out duration-700'>
               <Link to='/Malice' target="_blank">
                 <div>
-                  <img src='img/blog/Malice.jpg'></img>
+                  <img src='img/blog/Malice.jpg' className="blog-artikel"></img>
                   <div className="mt-1 text-black">Review Novel 'Malice' by Keigo Higashino</div>
+                </div>
+              </Link>
+            </p>
+
+            <p className='rounded-xl mb-10 overflow-hidden group hover:shadow-lg hover:translate-y-2 transition-all ease-in-out duration-700'>
+              <Link to='/Malice' target="_blank">
+                <div>
+                  <img src='img/blog/holy-mother.jpg' className="blog-artikel"></img>
+                  <div className="mt-1 text-black">Review Novel 'Holy Mother' by Akiyoshi Rikako</div>
                 </div>
               </Link>
             </p>
