@@ -44,6 +44,19 @@ function Portofolio() {
               </Link>
             </div>   
             <div className="portofolio-card">
+              <Link to="https://github.com/Rivensin/laravel-nextjs" target='_blank' alt='Laravel Nextjs'>
+                <div className="portofolio-img">
+                  <img src="img/portofolio/laravel-nextjs.png" alt="Laravel Nextjs" className='w-full'/>
+                </div>
+                <h3 className='portofolio-title'>
+                  Product Management Web With Laravel & Nextjs
+                </h3>
+                <p className='portofolio-detail'>
+                The Product Management is a platform created by Laravel as backend and Nextjs as frontend with user authentication, enabling registered users to log in, create and manage their own product, and make receipt for the sales.
+                </p>
+              </Link>
+            </div>  
+            <div className="portofolio-card">
               <Link to="https://rivensin.github.io/React-Blog-App/" target='_blank' alt='React Blog App'>
                 <div className="portofolio-img">
                   <img src="img/portofolio/blog-app.png" alt="React Blog App" className='w-full'/>

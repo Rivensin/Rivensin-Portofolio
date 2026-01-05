@@ -2,16 +2,16 @@ import InViewWrapper from "../component/InViewWrapper"
 import { HashLink } from "react-router-hash-link"
 import { Link } from "react-router-dom"
 
-export default function Malice() {
+function LawsOfPower() {
   return (
     <section id="blog" className="pt-36 pb-32 px-4 container bg-slate-100">
-      <title>Review Novel 'Malice' by Keigo Higashino</title>
+      <title>Review Buku 'The 48 Laws Of Power' by Robert Greene</title>
       <InViewWrapper>
         <h4 className='font-semibold text-2xl xl:text-3xl text-primary mb-4 text-center'>
           Blog
         </h4>
         <h2 className='font-bold text-dark text-xl mb-12 sm:text-3xl xl:text-4xl text-center'>
-          Review Novel 'Malice' by Keigo Higashino
+          Review Buku 'The 48 Laws Of Power' by Robert Greene
         </h2>
       </InViewWrapper>
       <div className='relative xl:grid xl:grid-cols-[300px_1fr_300px] xl:min-h-screen'>
@@ -33,26 +33,26 @@ export default function Malice() {
           <div className='font-medium text-secondary text-justify mb-10'>
             <InViewWrapper>
               <p id='malice' className='font-bold text-2xl'>
-                Kenapa Kamu Harus Membaca Malice?
+                Kenapa Kamu Harus Membaca The 48 Laws Of Power?
               </p>
               <p className='blog-page-desc'>
-                Aku membaca Malice karena penasaran dengan karya Keigo Higashino sebagai salah satu penulis misteri terbaik dari Jepang. Banyak yang bilang kisahnya bukan sekadar mencari siapa pembunuhnya, tapi kenapa seseorang bisa melakukan pembunuhan. Awalnya karena rekomendasi dari orang yang telah membaca buku misteri dari Akiyoshi Rikako.
-              </p>
-
-              <p className='blog-page-desc'>
-                Ceritanya tidak mengandalkan aksi atau darah, tapi kekuatan psikologis dan logika. Struktur dua sudut pandang (pelaku dan detektif) membuat pembaca diajak memahami dua sisi manusia secara jujur. Motifnya realistis dan emosional, bukan hanya sekadar “plot twist demi plot twist.”
+                Aku membaca The 48 Laws of Power karena penasaran kenapa buku ini sering disebut kontroversial, bahkan “berbahaya”. Banyak orang bilang buku ini bukan mengajarkan kebaikan, tapi realitas—tentang bagaimana kekuasaan bekerja apa adanya, bukan seperti yang idealnya kita inginkan. Rekomendasi ini datang dari diskusi seputar psikologi manusia dan dinamika sosial, terutama soal pengaruh, dominasi, dan strategi bertahan di dunia nyata.
               </p>
 
               <p className='blog-page-desc'>
-                Kalau kamu suka cerita misteri dengan plot twist yang halus tapi mengguncang, Malice karya Keigo Higashino adalah salah satu novel yang nggak boleh kamu lewatkan. Ini bukan sekadar kisah pembunuhan — tapi perjalanan menyelami motif terdalam manusia, yang kadang lebih gelap dari kejahatannya sendiri.
+                Buku ini tidak mengajarkan moral hitam-putih. Sebaliknya, Robert Greene membedah sejarah, politik, dan hubungan manusia dengan sudut pandang yang dingin dan objektif. Setiap “hukum” bukan sekadar teori, tapi diambil dari kisah nyata tokoh-tokoh berpengaruh—raja, jenderal, politisi, hingga seniman—yang berhasil (atau hancur) karena memahami, atau mengabaikan, hukum kekuasaan.
+              </p>
+
+              <p className='blog-page-desc'>
+                Kalau kamu tertarik memahami bagaimana kekuasaan benar-benar bekerja di balik layar, bukan bagaimana seharusnya ia bekerja, buku ini layak masuk daftar bacaanmu.
               </p>
             </InViewWrapper>
 
             <InViewWrapper>
               <div className="flex justify-center items-center gap-8 xl:gap-12 2xl:gap-28">
-                <img src='img/blog/Malice2.jpg' alt='Cover Novel Malice by Keigo Higashino' className='blogs-picture'>
+                <img src='img/blog/48-Laws-of-Power-by-Robert-Greene2.jpg' alt='48-Laws-of-Power-by-Robert-Greene2' className='blogs-picture'>
                 </img>
-                <img src='img/blog/Malice3.jpg' alt='Cover Novel Malice by Keigo Higashino' className='blogs-picture'>
+                <img src='img/blog/48-Laws-of-Power-by-Robert-Greene3.jpg' alt='48-Laws-of-Power-by-Robert-Greene3' className='blogs-picture'>
                 </img>
               </div>
             </InViewWrapper>
@@ -62,8 +62,9 @@ export default function Malice() {
                 Sinopsis Cerita
               </p>    
               <p className='blog-page-desc'>
-                Ceritanya dimulai dengan pembunuhan seorang penulis terkenal, Kunihiko Hidaka. Semua bukti mengarah pada sahabatnya sendiri, Osamu Nonoguchi. Tapi sejak awal, ada sesuatu yang terasa “tidak pas.”
-                Yang menarik, Higashino nggak membuat kita menebak siapa pelakunya karena itu sudah jelas sejak awal. Justru misteri utamanya adalah “kenapa?”. Kenapa seseorang yang tampak begitu dekat bisa membunuh dengan cara yang begitu dingin dan terencana?
+                The 48 Laws of Power berisi 48 prinsip atau “hukum” yang menggambarkan pola perilaku manusia dalam perebutan kekuasaan. Setiap hukum dijelaskan melalui: Kisah sejarah, Analisis psikologis, Contoh penerapan, Sisi terang dan gelap dari hukum tersebut.
+
+                Menariknya, Greene tidak memaksa pembaca untuk “menggunakan” hukum-hukum ini. Buku ini bisa dibaca sebagai panduan bertahan, bukan semata-mata panduan memanipulasi. Dengan memahami hukum kekuasaan, kamu bisa mengenali permainan orang lain—dan tidak menjadi korban tanpa sadar.
               </p>
             </InViewWrapper>
 
@@ -72,12 +73,13 @@ export default function Malice() {
                 Kesan Membaca
               </p>    
               <p className='blog-page-desc'>
-                Bagi saya, Malice adalah pengalaman membaca yang pelan tapi menegangkan. Higashino membuat setiap detail terasa berarti — dari cara tokohnya menulis catatan harian, sampai percakapan yang tampak biasa tapi ternyata menyimpan lapisan makna.
-                Rasanya seperti menonton duel intelektual antara dua orang yang sama-sama cerdas, tapi satu di antaranya menyimpan dendam yang begitu dalam dan personal.                
+                Membaca buku ini terasa seperti membuka tirai yang selama ini menutupi interaksi sosial. Banyak hukum yang awalnya terasa kejam atau sinis, tapi semakin dibaca, semakin masuk akal. Bukan karena kita ingin menjadi licik, tapi karena dunia sering kali memang tidak adil dan tidak transparan.
+
+                Beberapa hukum terasa sangat relevan dengan kehidupan sehari-hari—di tempat kerja, pertemanan, bahkan keluarga. Ada momen di mana aku berhenti membaca sejenak dan berpikir, “Oh… jadi ini yang sebenarnya terjadi.” Buku ini tidak nyaman, tapi jujur. Ia memaksa pembaca untuk bercermin, melihat ambisi, rasa iri, ego, dan ketakutan dalam diri sendiri              
               </p>
 
               <p className='blog-page-desc'>
-                Saya sempat berpikir kisahnya hanya tentang kecemburuan dan iri hati, tapi semakin dalam dibaca, makin terasa betapa kompleks dan menyakitkannya alasan di balik pembunuhan itu. Dan bagian akhir... benar-benar membuat saya terdiam beberapa saat. Yang paling menempel di benak saya adalah bagaimana kebencian bisa tumbuh dari hal-hal kecil — pujian, perbandingan, bahkan perhatian. Higashino menulis dengan dingin, tapi menyentuh. Ia membuat kita sadar bahwa kadang yang paling kita benci adalah cermin diri kita sendiri.
+                Yang paling kuat adalah kesadaran bahwa niat baik saja sering tidak cukup. Banyak konflik bukan terjadi karena kebencian besar, tapi karena kesalahan kecil: terlalu menonjol, terlalu jujur, atau salah membaca posisi.
               </p>
             </InViewWrapper>
 
@@ -86,7 +88,11 @@ export default function Malice() {
                 Kesimpulan
               </p>    
               <p className='blog-page-desc'>
-                Malice adalah novel yang cerdas dan emosional, cocok untuk pembaca yang menikmati misteri psikologis dengan ritme tenang tapi menusuk. Tanpa perlu darah atau kejar-kejaran, Higashino membuktikan bahwa kejahatan paling menarik justru lahir dari pikiran dan perasaan manusia itu sendiri.
+                The 48 Laws of Power adalah buku yang tajam, provokatif, dan realistis. Cocok untuk pembaca yang ingin memahami dinamika kekuasaan, psikologi manusia, dan strategi bertahan dalam dunia yang kompetitif. Ini bukan buku motivasi yang menghibur, tapi buku yang membuka mata.
+
+                Buku ini tidak mengajarkanmu menjadi orang jahat—ia mengajarkanmu agar tidak naif. Karena dalam banyak situasi, kekuasaan tidak dimiliki oleh mereka yang paling baik, tapi oleh mereka yang paling paham permainan.
+
+                Jika kamu siap membaca sesuatu yang jujur, dingin, dan kadang tidak nyaman, The 48 Laws of Power adalah buku yang akan terus terngiang lama setelah halaman terakhir ditutup.
               </p>
             </InViewWrapper>
           </div>
@@ -116,10 +122,10 @@ export default function Malice() {
             </p>
 
             <p className='rounded-xl mb-10 overflow-hidden group hover:shadow-lg hover:translate-y-2 transition-all ease-in-out duration-700'>
-              <Link to='/48-Laws-Of-Power' target="_blank">
+              <Link to='/Malice' target="_blank">
                 <div>
-                  <img src='img/blog/48-Laws-of-Power-by-Robert-Greene2.jpg' className="blog-artikel"></img>
-                  <div className="mt-1 text-black">Review Novel 'The 48 Laws Of Power' by Robert Greene</div>
+                  <img src='img/blog/Malice.jpg' className="blog-artikel"></img>
+                  <div className="mt-1 text-black">Review Novel 'Malice' by Keigo Higashino</div>
                 </div>
               </Link>
             </p>
@@ -130,3 +136,4 @@ export default function Malice() {
   )
 }
 
+export default LawsOfPower

@@ -45,6 +45,15 @@ export default function HolyMother() {
             </InViewWrapper>
 
             <InViewWrapper>
+              <div className="flex justify-center items-center gap-6 xl:gap-12 2xl:gap-28">
+                <img src='img/blog/holy-mother2.jpg' alt='Cover Novel Malice by Keigo Higashino' className='blogs-picture'>
+                </img>
+                <img src='img/blog/holy-mother3.jpg' alt='Cover Novel Malice by Keigo Higashino' className='blogs-picture'>
+                </img>
+              </div>
+            </InViewWrapper>
+
+            <InViewWrapper>
               <p id='sinopsis' className='blog-page-title'>
                 Sinopsis Cerita
               </p>    
@@ -104,6 +113,15 @@ export default function HolyMother() {
                 </div>
               </Link>
             </p>  
+
+            <p className='rounded-xl mb-10 overflow-hidden group hover:shadow-lg hover:translate-y-2 transition-all ease-in-out duration-700'>
+              <Link to='/48-Laws-Of-Power' target="_blank">
+                <div>
+                  <img src='img/blog/48-Laws-of-Power-by-Robert-Greene2.jpg' className="blog-artikel"></img>
+                  <div className="mt-1 text-black">Review Novel 'The 48 Laws Of Power' by Robert Greene</div>
+                </div>
+              </Link>
+            </p>
           </aside>     
         </InViewWrapper>
       </div>      

@@ -5,7 +5,7 @@ import { HashLink } from 'react-router-hash-link';
 
 function Header() {
   const location = useLocation()
-  const subRoute = ['/My-Frontend-Dev-Learning-Journey']
+  const subRoute = ['/My-Frontend-Dev-Learning-Journey', '/Malice', '/HolyMother', '/48-Laws-Of-Power']
   const isSubRoute = subRoute.some(route => location.pathname.includes(route))
   const home = !isSubRoute  
 

@@ -92,7 +92,7 @@ body{
 }
 
 .blog-picture{
-  @apply w-96 lg:w-full h-60 lg:h-72 object-cover flex-shrink-0 max-w-none group-hover:opacity-80;
+  @apply w-[600px] lg:w-full h-60 lg:h-72 object-cover flex-shrink-0 max-w-none group-hover:opacity-80;
 }
 
 .blog-detail{
@@ -128,11 +128,15 @@ body{
 }
 
 .blog-page-desc{
-  @apply mt-4 leading-relaxed
+  @apply mt-4 pr-4 lg:text-lg xl:text-xl leading-[1.8]
 }
 
 .blog-artikel{
   @apply w-full h-56 sm:h-64 md:h-72 lg:h-80 xl:h-36 object-cover
+}
+
+.blogs-picture{
+ @apply w-48 2xl:w-80 h-72 sm:h-full object-contain mb-2 mt-6 shadow-lg hover:scale-125 transition-all duration-500 ease-in-out hover:border-2 border-black
 }
 
 a { 

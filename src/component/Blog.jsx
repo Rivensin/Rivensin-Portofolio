@@ -87,6 +87,29 @@ function Blog() {
             </Link>
           </div>
 
+          <div className="w-full group">
+            <Link to="/48-Laws-Of-Power" target='_blank'>
+              <div className="blog-card">
+                <div>
+                  <img src="img/blog/48-Laws-of-Power-by-Robert-Greene.jpg" alt="48-Laws-of-Power-by-Robert-Greene" className='blog-picture'/>
+                </div>
+                <div className="blog-detail">
+                  <div className='text-md blog-title'>
+                    Review Buku 'The 48 Laws Of Power' by Robert Greene
+                  </div>
+                  <div className='blog-desc-card'>
+                    <p className='blog-desc'>
+                      Aku membaca The 48 Laws of Power karena penasaran kenapa buku ini sering disebut kontroversial, bahkan “berbahaya”. Banyak orang bilang buku ini bukan mengajarkan kebaikan, tapi realitas—tentang bagaimana kekuasaan bekerja apa adanya
+                    </p>
+                  </div>
+                  <div className='blog-link-bottom'>
+                    Baca Selengkapnya
+                  </div>
+                </div>
+              </div>
+            </Link>
+          </div>
+
         </div>  
       </div>
     </section>
