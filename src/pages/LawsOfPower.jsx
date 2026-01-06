@@ -129,6 +129,15 @@ function LawsOfPower() {
                 </div>
               </Link>
             </p>
+
+            <p className='rounded-xl mb-10 overflow-hidden group hover:shadow-lg hover:translate-y-2 transition-all ease-in-out duration-700'>
+              <Link to='/GirlInTheDark' target="_blank">
+                <div>
+                  <img src='img/blog/Girls-In-The-Dark2.jpg' className="blog-artikel"></img>
+                  <div className="mt-1 pr-4 lg:text-lg xl:text-xl leading-[1.8] text-black">Review Novel 'Girl in the Dark' by Akiyoshi Rikako</div>
+                </div>
+              </Link>
+            </p>
           </aside>     
         </InViewWrapper>
       </div>      

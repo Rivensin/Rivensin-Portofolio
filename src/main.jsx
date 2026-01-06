@@ -8,6 +8,7 @@ import FrontEndJourney from './pages/FrontEndJourney.jsx'
 import Malice from './pages/Malice.jsx'
 import HolyMother from './pages/HolyMother.jsx'
 import LawsOfPower from './pages/LawsOfPower.jsx'
+import GirlInTheDark from './pages/GirlInTheDark.jsx'
 
 const router = createHashRouter([
   {
@@ -19,6 +20,7 @@ const router = createHashRouter([
       {path: "/Malice", element: <Malice /> },
       {path: "/HolyMother", element: <HolyMother /> },
       {path: "/48-Laws-Of-Power", element: <LawsOfPower /> },
+      {path: "/GirlInTheDark", element: <GirlInTheDark /> },
     ]
   }
   ]

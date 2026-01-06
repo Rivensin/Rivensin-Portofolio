@@ -110,6 +110,29 @@ function Blog() {
             </Link>
           </div>
 
+          <div className="w-full group">
+            <Link to="/GirlInTheDark" target='_blank'>
+              <div className="blog-card">
+                <div>
+                  <img src="img/blog/Girls-In-The-Dark2.jpg" alt="Girls-In-The-Dark" className='blog-picture'/>
+                </div>
+                <div className="blog-detail">
+                  <div className='text-md blog-title'>
+                    Review Novel 'Girl In The Dark' by Akiyoshi Rikako
+                  </div>
+                  <div className='blog-desc-card'>
+                    <p className='blog-desc'>
+                      Aku membaca Girl in the Dark karena penasaran dengan cara Akiyoshi Rikako menulis kisah misteri yang berpusat pada psikologi perempuan. Dari beberapa karyanya, Rikako dikenal tidak sekadar membangun teka-teki kriminal
+                    </p>
+                  </div>
+                  <div className='blog-link-bottom'>
+                    Baca Selengkapnya
+                  </div>
+                </div>
+              </div>
+            </Link>
+          </div>
+
         </div>  
       </div>
     </section>

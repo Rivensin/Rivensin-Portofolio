@@ -147,8 +147,17 @@ export default function FrontEndJourney() {
             <p className='rounded-xl mb-10 overflow-hidden group hover:shadow-lg hover:translate-y-2 transition-all ease-in-out duration-700'>
               <Link to='/48-Laws-Of-Power' target="_blank">
                 <div>
-                  <img src='img/blog/48-Laws-of-Power-by-Robert-Greene2.jpg' className="blog-artikel"></img>
+                  <img src='img/blog/48-Laws-of-Power-by-Robert-Greene.jpg' className="blog-artikel"></img>
                   <div className="mt-1 pr-4 lg:text-lg xl:text-xl leading-[1.8] text-black">Review Novel 'The 48 Laws Of Power' by Robert Greene</div>
+                </div>
+              </Link>
+            </p>
+
+            <p className='rounded-xl mb-10 overflow-hidden group hover:shadow-lg hover:translate-y-2 transition-all ease-in-out duration-700'>
+              <Link to='/GirlInTheDark' target="_blank">
+                <div>
+                  <img src='img/blog/Girls-In-The-Dark2.jpg' className="blog-artikel"></img>
+                  <div className="mt-1 pr-4 lg:text-lg xl:text-xl leading-[1.8] text-black">Review Novel 'Girl in the Dark' by Akiyoshi Rikako</div>
                 </div>
               </Link>
             </p>
