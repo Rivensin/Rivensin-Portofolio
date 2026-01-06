@@ -9,12 +9,12 @@ import InViewWrapper from '../component/InViewWrapper';
 export default function Home() {
   return (
     <>   
-    <InViewWrapper><Hero /></InViewWrapper> 
-    <InViewWrapper><About /></InViewWrapper>
-    <InViewWrapper><Portofolio /></InViewWrapper>
-    <InViewWrapper><Clients /></InViewWrapper>
-    <InViewWrapper><Blog /></InViewWrapper>
-    <InViewWrapper><Contact /></InViewWrapper>
+      <InViewWrapper><Hero /></InViewWrapper> 
+      <InViewWrapper><About /></InViewWrapper>
+      <InViewWrapper><Portofolio /></InViewWrapper>
+      <InViewWrapper><Clients /></InViewWrapper>
+      <InViewWrapper><Blog /></InViewWrapper>
+      <InViewWrapper><Contact /></InViewWrapper>
     </>
   )
 }

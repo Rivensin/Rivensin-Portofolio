@@ -2,7 +2,7 @@ import React from 'react'
 
 function Clients() {
   return (
-    <section id='clients' className="pt-36 pb-32 container bg-slate-800"> 
+    <section id='clients' className="pt-36 pb-32 container bg-slate-800 overflow-hidden"> 
       <div className="w-full px-4">
         <div className="mx-auto text-center mb-16">
           <h4 className='main-title'>

@@ -1,8 +1,7 @@
 function Hero() {
   
   return (
-    <div className="container">
-    <section id='home' className='pt-28'>
+    <section id='home' className='pt-28 container overflow-hidden'>
       <div className="w-full flex flex-wrap lg:mx-2 xl:mx-7">
         <div className="w-full self-center px-4 lg:w-1/2">
           <h1 className='text-base font-semibold text-primary md:text-xl mb-2'>Halo Semua✌, saya 
@@ -37,7 +36,6 @@ function Hero() {
         </div>
       </div>
     </section>
-    </div>
   )
 }
 

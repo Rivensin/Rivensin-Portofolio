@@ -50,9 +50,9 @@ function Header() {
         <div className="px-4">
           {home 
           ?
-            <HashLink smooth to="/#home" className='font-bold text-lg md:text-2xl xl:text-3xl text-primary block py-6'>Rivensin</HashLink>
+            <HashLink smooth to="#home" className='font-bold text-lg md:text-2xl xl:text-3xl text-primary block py-6'>Rivensin</HashLink>
           :
-            <a href="/#home" className='font-bold text-lg md:text-2xl xl:text-3xl text-primary block py-6'>Rivensin</a>
+            <HashLink smooth to="/#home" className='font-bold text-lg md:text-2xl xl:text-3xl text-primary block py-6'>Rivensin</HashLink>
           }
           
         </div>

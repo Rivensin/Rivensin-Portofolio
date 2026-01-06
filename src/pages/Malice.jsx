@@ -49,7 +49,7 @@ export default function Malice() {
             </InViewWrapper>
 
             <InViewWrapper>
-              <div className="flex justify-center items-center gap-8 xl:gap-12 2xl:gap-28">
+              <div className="blogs-picture-wrap">
                 <img src='img/blog/Malice2.jpg' alt='Cover Novel Malice by Keigo Higashino' className='blogs-picture'>
                 </img>
                 <img src='img/blog/Malice3.jpg' alt='Cover Novel Malice by Keigo Higashino' className='blogs-picture'>

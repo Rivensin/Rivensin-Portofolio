@@ -6,10 +6,10 @@ import UseScrollTop from './component/UseScrollTop';
 function App() {
   return (
     <>   
-    <Header />
-    <UseScrollTop />
-    <Outlet />
-    <Footer />
+      <Header />
+      <UseScrollTop />
+      <Outlet />
+      <Footer />
     </>
   )
   

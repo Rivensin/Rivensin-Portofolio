@@ -135,8 +135,12 @@ body{
   @apply w-full h-56 sm:h-64 md:h-72 lg:h-80 xl:h-36 object-cover
 }
 
+.blogs-picture-wrap{
+ @apply flex flex-col sm:flex-row justify-center items-center gap-6 xl:gap-12 2xl:gap-28
+}
+
 .blogs-picture{
- @apply w-48 2xl:w-80 h-72 sm:h-full object-contain mb-2 mt-6 shadow-lg hover:scale-125 transition-all duration-500 ease-in-out hover:border-2 border-black
+ @apply w-48 2xl:w-80 h-72 sm:h-full object-cover sm:object-contain mb-2 mt-6 shadow-lg hover:scale-125 transition-all duration-500 ease-in-out hover:border-2 border-black
 }
 
 a { 

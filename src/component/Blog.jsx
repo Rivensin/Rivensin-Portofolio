@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 function Blog() {
   return (
-    <section id="blog" className="pt-36 pb-32 container bg-slate-100">
+    <section id="blog" className="pt-36 pb-32 container bg-slate-100 overflow-hidden">
       <div className="w-full px-4">
         <div className="max-w-xl mx-auto text-center mb-16">
           <h4 className='font-semibold text-lg text-primary mb-2'>

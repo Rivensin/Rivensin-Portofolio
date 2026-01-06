@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <section id="about" className='pt-32 pb-32'>
+    <section id="about" className='pt-32 pb-32 container overflow-hidden'>
       <div className="flex flex-wrap lg:mx-2 xl:mx-7">
         <div className="w-full px-4 mb-10 lg:w-1/2">
           <h4 className='font-bold uppercase text-primary text-lg mb-3'>

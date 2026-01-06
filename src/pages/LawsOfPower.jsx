@@ -49,7 +49,7 @@ function LawsOfPower() {
             </InViewWrapper>
 
             <InViewWrapper>
-              <div className="flex justify-center items-center gap-8 xl:gap-12 2xl:gap-28">
+              <div className="blogs-picture-wrap">
                 <img src='img/blog/48-Laws-of-Power-by-Robert-Greene2.jpg' alt='48-Laws-of-Power-by-Robert-Greene2' className='blogs-picture'>
                 </img>
                 <img src='img/blog/48-Laws-of-Power-by-Robert-Greene3.jpg' alt='48-Laws-of-Power-by-Robert-Greene3' className='blogs-picture'>

@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <section id="contact" className="container pt-36 pb-32">
+    <section id="contact" className="container pt-36 pb-32 overflow-hidden">
       <div className="w-full px-4">
         <div className="max-w-xl mx-auto text-center mb-16">
           <h4 className='main-title'>

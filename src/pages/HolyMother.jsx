@@ -45,7 +45,7 @@ export default function HolyMother() {
             </InViewWrapper>
 
             <InViewWrapper>
-              <div className="flex justify-center items-center gap-6 xl:gap-12 2xl:gap-28">
+              <div className="blogs-picture-wrap">
                 <img src='img/blog/holy-mother2.jpg' alt='Cover Novel Malice by Keigo Higashino' className='blogs-picture'>
                 </img>
                 <img src='img/blog/holy-mother3.jpg' alt='Cover Novel Malice by Keigo Higashino' className='blogs-picture'>
