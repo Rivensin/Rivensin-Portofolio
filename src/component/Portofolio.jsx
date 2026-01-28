@@ -41,7 +41,20 @@ function Portofolio() {
                 Next.js + Firebase app enabling real-time driver tracking, geocoded addresses, and delivery status management to give the information about delivery to the client.
               </p>
             </Link>
-          </div>   
+          </div>
+          <div className="portofolio-card">
+            <Link to="https://https://github.com/Rivensin/Book-Track-App-ReactNative" target='_blank' alt='React Native'>
+              <div className="portofolio-img h-[576px]">
+                <img src="img/portofolio/react-native-booktrack-project.jpg" alt="React Native" className='w-full object-cover lg:-translate-y-[800px] lg:scale-[0.25]'/>
+              </div>
+              <h3 className='portofolio-title'>                
+                BookTrack Mobile App with ReactNative
+              </h3>
+              <p className='portofolio-detail'>
+              React Native (Expo) mobile app for managing personal book collections with user authentication, enabling registered users to log in, create and manage their own book collections
+              </p>
+            </Link>
+          </div>  
           <div className="portofolio-card">
             <Link to="https://github.com/Rivensin/laravel-nextjs" target='_blank' alt='Laravel Nextjs'>
               <div className="portofolio-img">
@@ -67,20 +80,7 @@ function Portofolio() {
               The Blog App is a platform with user authentication, enabling registered users to log in, create and manage their own posts, and explore posts from other users.
               </p>
             </Link>
-          </div>       
-          <div className="portofolio-card">
-            <Link to="https://rivensin.github.io/Youtube-Home/" target='_blank' alt='Youtube'>
-              <div className="portofolio-img">
-                <img src="img/portofolio/youtube-project.png" alt="Youtube" className='w-full'/>
-              </div>
-              <h3 className='portofolio-title'>
-                Landing Page Youtube
-              </h3>
-              <p className='portofolio-detail'>
-              A simple landing page built with HTML & CSS to practice utility classes, layouts, and responsiveness.
-              </p>
-            </Link>
-          </div>
+          </div>     
           <div className="portofolio-card">
             <Link to="https://rivensin.github.io/amazon-copy.com/" target='_blank' alt="Amazon Clone">
               <div className="portofolio-img">
@@ -93,7 +93,20 @@ function Portofolio() {
                 A simple copy Of Amazon E-commerce Website built with HTML,CSS,JavaScript to practice JavaScript feature
               </p>
             </Link>
-          </div>              
+          </div>  
+          <div className="portofolio-card">
+            <Link to="https://rivensin.github.io/Youtube-Home/" target='_blank' alt='Youtube'>
+              <div className="portofolio-img">
+                <img src="img/portofolio/youtube-project.png" alt="Youtube" className='w-full'/>
+              </div>
+              <h3 className='portofolio-title'>
+                Landing Page Youtube
+              </h3>
+              <p className='portofolio-detail'>
+              A simple landing page built with HTML & CSS to practice utility classes, layouts, and responsiveness.
+              </p>
+            </Link>
+          </div>                   
         </div>
       </div>
     </section>
