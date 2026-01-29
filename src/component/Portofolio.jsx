@@ -45,10 +45,10 @@ function Portofolio() {
           <div className="portofolio-card">
             <Link to="https://https://github.com/Rivensin/Book-Track-App-ReactNative" target='_blank' alt='React Native'>
               <div className="portofolio-img h-[576px]">
-                <img src="img/portofolio/react-native-booktrack-project.jpg" alt="React Native" className='w-full object-cover lg:-translate-y-[800px] lg:scale-[0.25]'/>
+                <img src="img/portofolio/react-native-booktrack-project.jpg" alt="React Native" className='w-full object-cover lg:-translate-y-[845px] lg:scale-[0.25]'/>
               </div>
               <h3 className='portofolio-title'>                
-                BookTrack Mobile App with ReactNative
+                BookTrack Mobile App with ReactNative <span className='portofolio-title-date'>(Januari 2026)</span>
               </h3>
               <p className='portofolio-detail'>
               React Native (Expo) mobile app for managing personal book collections with user authentication, enabling registered users to log in, create and manage their own book collections
@@ -61,7 +61,7 @@ function Portofolio() {
                 <img src="img/portofolio/laravel-nextjs.png" alt="Laravel Nextjs" className='w-full'/>
               </div>
               <h3 className='portofolio-title'>
-                Product Management Web With Laravel & Nextjs
+                Product Management Web With Laravel & Nextjs <span className='portofolio-title-date'>(November 2025 - Desember 2025)</span>
               </h3>
               <p className='portofolio-detail'>
               The Product Management is a platform created by Laravel as backend and Nextjs as frontend with user authentication, enabling registered users to log in, create and manage their own product, and make receipt for the sales.
@@ -74,7 +74,7 @@ function Portofolio() {
                 <img src="img/portofolio/blog-app.png" alt="React Blog App" className='w-full'/>
               </div>
               <h3 className='portofolio-title'>
-                Blog App
+                Blog App <span className='portofolio-title-date'>(Februari 2025 - April 2025)</span>
               </h3>
               <p className='portofolio-detail'>
               The Blog App is a platform with user authentication, enabling registered users to log in, create and manage their own posts, and explore posts from other users.
@@ -87,7 +87,7 @@ function Portofolio() {
                 <img src="img/portofolio/amazon.png" alt="Amazon Clone" className='w-full'/>
               </div>
               <h3 className='portofolio-title'>
-                Simple Amazon E-Commerce Web 
+                Simple Amazon E-Commerce Web <span className='portofolio-title-date'>(Desember 2024)</span>
               </h3>
               <p className='portofolio-detail'>
                 A simple copy Of Amazon E-commerce Website built with HTML,CSS,JavaScript to practice JavaScript feature
@@ -100,7 +100,7 @@ function Portofolio() {
                 <img src="img/portofolio/youtube-project.png" alt="Youtube" className='w-full'/>
               </div>
               <h3 className='portofolio-title'>
-                Landing Page Youtube
+                Landing Page Youtube <span className='portofolio-title-date'>(Desember 2024)</span>
               </h3>
               <p className='portofolio-detail'>
               A simple landing page built with HTML & CSS to practice utility classes, layouts, and responsiveness.
