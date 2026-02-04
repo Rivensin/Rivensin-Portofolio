@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { motion } from 'motion/react';
-import { Link, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 function Header() {
@@ -42,7 +42,7 @@ function Header() {
   },[])
 
   return (
-    <motion.header className='w-full bg-transparent absolute top-0 left-0 flex items-center z-10'
+    <motion.header className='w-full bg-white absolute top-0 left-0 flex items-center z-10 shadow-[inset_0_-1px_0_0_rgba(0,0,0,0.3)]'
                    initial={{opacity: 0}}
                    animate={{opacity: 0.8}}
                    transition={{duration: 0.8, ease: 'easeOut'}}>

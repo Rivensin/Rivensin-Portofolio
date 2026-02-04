@@ -45,7 +45,7 @@ function Portofolio() {
           <div className="portofolio-card">
             <Link to="https://https://github.com/Rivensin/Book-Track-App-ReactNative" target='_blank' alt='React Native'>
               <div className="portofolio-img h-[576px]">
-                <img src="img/portofolio/react-native-booktrack-project.jpg" alt="React Native" className='w-full object-cover lg:-translate-y-[845px] lg:scale-[0.25]'/>
+                <img src="img/portofolio/react-native-booktrack-project.jpeg" alt="React Native" className='w-full object-cover lg:-translate-y-[845px] lg:scale-[0.25]'/>
               </div>
               <h3 className='portofolio-title'>                
                 BookTrack Mobile App with ReactNative <span className='portofolio-title-date'>(Januari 2026)</span>
