@@ -54,6 +54,10 @@ body{
   backdrop-filter: blur(10px);
 }
 
+.skill{
+  @apply absolute hidden group-hover:block left-1/2 -translate-x-1/2 whitespace-nowrap rounded bg-black text-white p-1 
+}
+
 .main-title{
   @apply font-semibold text-lg text-primary mb-2
 }
@@ -135,7 +139,7 @@ body{
 }
 
 .blogs-picture-wrap{
- @apply flex flex-col sm:flex-row justify-center items-center gap-6 xl:gap-12 2xl:gap-28
+ @apply flex flex-col sm:flex-row justify-center items-center gap-6 xl:gap-12 2xl:gap-28 mt-3
 }
 
 .blogs-picture{
