@@ -18,8 +18,8 @@ function Portofolio() {
         <div className="w-full flex flex-wrap justify-center">
           <div className="portofolio-card">
             <Link to="https://dlooti.vercel.app/" target='_blank' alt='Dlooti App'>
-              <div className="portofolio-img">
-                <img src="img/portofolio/dlooti.png" alt="Dlooti App" className='w-full'/>
+              <div className="portofolio-img-wrap">
+                <img src="img/portofolio/dlooti.png" alt="Dlooti App" className='portofolio-img'/>
               </div>
               <h3 className='portofolio-title'>
                 Dlooti Webpage <span className='portofolio-title-date'>(Juni 2025 - Juli 2025)</span>
@@ -31,8 +31,8 @@ function Portofolio() {
           </div>
           <div className="portofolio-card">
             <Link to="https://dlooti-tracking-package.vercel.app/" target='_blank' alt='Dlooti Tracking App'>
-              <div className="portofolio-img">
-                <img src="img/portofolio/dlooti-tracking.png" alt="Dlooti Tracking App" className='w-full'/>
+              <div className="portofolio-img-wrap">
+                <img src="img/portofolio/dlooti-tracking.png" alt="Dlooti Tracking App" className='portofolio-img'/>
               </div>
               <h3 className='portofolio-title'>
                 Dlooti Tracking Delivery <span className='portofolio-title-date'>(Agustus 2025 - September 2025)</span>
@@ -44,8 +44,8 @@ function Portofolio() {
           </div>
           <div className="portofolio-card">
             <Link to="https://https://github.com/Rivensin/Book-Track-App-ReactNative" target='_blank' alt='React Native'>
-              <div className="portofolio-img h-[576px]">
-                <img src="img/portofolio/react-native-booktrack-project.jpeg" alt="React Native" className='w-full object-cover lg:-translate-y-[845px] lg:scale-[0.25]'/>
+              <div className="portofolio-img-wrap">
+                <img src="img/portofolio/react-native-booktrack-project.jpeg" alt="React Native" className='portofolio-img'/>
               </div>
               <h3 className='portofolio-title'>                
                 BookTrack Mobile App with ReactNative <span className='portofolio-title-date'>(Januari 2026)</span>
@@ -57,8 +57,8 @@ function Portofolio() {
           </div>  
           <div className="portofolio-card">
             <Link to="https://github.com/Rivensin/laravel-nextjs" target='_blank' alt='Laravel Nextjs'>
-              <div className="portofolio-img">
-                <img src="img/portofolio/laravel-nextjs.png" alt="Laravel Nextjs" className='w-full'/>
+              <div className="portofolio-img-wrap">
+                <img src="img/portofolio/laravel-nextjs.png" alt="Laravel Nextjs" className='portofolio-img'/>
               </div>
               <h3 className='portofolio-title'>
                 Product Management Web With Laravel & Nextjs <span className='portofolio-title-date'>(November 2025 - Desember 2025)</span>
@@ -70,8 +70,8 @@ function Portofolio() {
           </div>  
           <div className="portofolio-card">
             <Link to="https://rivensin.github.io/React-Blog-App/" target='_blank' alt='React Blog App'>
-              <div className="portofolio-img">
-                <img src="img/portofolio/blog-app.png" alt="React Blog App" className='w-full'/>
+              <div className="portofolio-img-wrap">
+                <img src="img/portofolio/blog-app.png" alt="React Blog App" className='portofolio-img'/>
               </div>
               <h3 className='portofolio-title'>
                 Blog App <span className='portofolio-title-date'>(Februari 2025 - April 2025)</span>
@@ -83,8 +83,8 @@ function Portofolio() {
           </div>     
           <div className="portofolio-card">
             <Link to="https://rivensin.github.io/amazon-copy.com/" target='_blank' alt="Amazon Clone">
-              <div className="portofolio-img">
-                <img src="img/portofolio/amazon.png" alt="Amazon Clone" className='w-full'/>
+              <div className="portofolio-img-wrap">
+                <img src="img/portofolio/amazon.png" alt="Amazon Clone" className='portofolio-img'/>
               </div>
               <h3 className='portofolio-title'>
                 Simple Amazon E-Commerce Web <span className='portofolio-title-date'>(Desember 2024)</span>
@@ -96,8 +96,8 @@ function Portofolio() {
           </div>  
           <div className="portofolio-card">
             <Link to="https://rivensin.github.io/Youtube-Home/" target='_blank' alt='Youtube'>
-              <div className="portofolio-img">
-                <img src="img/portofolio/youtube-project.png" alt="Youtube" className='w-full'/>
+              <div className="portofolio-img-wrap">
+                <img src="img/portofolio/youtube-project.png" alt="Youtube" className='portofolio-img'/>
               </div>
               <h3 className='portofolio-title'>
                 Landing Page Youtube <span className='portofolio-title-date'>(Desember 2024)</span>
