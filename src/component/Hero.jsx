@@ -44,7 +44,12 @@ function Hero() {
 
         <div className='lg:w-1/2 overflow-hidden'>
           <div className="mt-10 relative lg:mt-0 lg:right-0 ml-4 overflow-hidden rounded-lg">
-            <img src="img/me.jpeg" alt="creator" className='w-[300px] lg:w-[400px] h-[300px] sm:h-[350px] lg:h-[450px] mx-auto bg-contain hover:scale-110 rounded-lg transition-all ease-out duration-700'/>
+            <img src="img/1725381035677.png" alt="creator" className='relative max-w-full mx-auto z-10'/>
+            <span className='absolute bottom-20 z-0 left-1/2 -translate-x-1/2 top-6 md:scale-125'>
+              <svg width='400' height='400' viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#14b8a6" d="M54.2,-22.6C58.7,-3.6,43.1,17.1,21.5,33.7C0,50.3,-27.4,62.9,-44.5,52.6C-61.5,42.2,-68.2,8.9,-59.1,-16.4C-49.9,-41.7,-25,-59,-0.1,-59C24.8,-59,49.6,-41.6,54.2,-22.6Z" transform="translate(100 100)"/>
+              </svg>
+            </span>
           </div>
         </div>
       </div>
