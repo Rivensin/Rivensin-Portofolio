@@ -17,6 +17,19 @@ function Portofolio() {
         </div>
         <div className="w-full flex flex-wrap justify-center">
           <div className="portofolio-card">
+            <Link to="https://ayana-clone.vercel.app/" target='_blank' alt='Ayana App'>
+              <div className="portofolio-img-wrap">
+                <img src="img/portofolio/ayana-clone.png" alt="Ayana App" className='portofolio-img'/>
+              </div>
+              <h3 className='portofolio-title'>
+                AYANA Bali Clone Webpage <span className='portofolio-title-date'>(Feb 2026 - Sekarang)</span>
+              </h3>
+              <p className='portofolio-detail'>
+                A high-fidelity luxury hotel website clone inspired by AYANA Bali, built with Next.js and Tailwind CSS, focused on recreating responsive layouts, advanced scroll interactions, and premium visual presentation to emulate a modern hospitality web experience.
+              </p>
+            </Link>
+          </div>
+          <div className="portofolio-card">
             <Link to="https://dlooti.vercel.app/" target='_blank' alt='Dlooti App'>
               <div className="portofolio-img-wrap">
                 <img src="img/portofolio/dlooti.png" alt="Dlooti App" className='portofolio-img'/>
