@@ -25,7 +25,7 @@ function Portofolio() {
                 Movie Watchlist App <span className='portofolio-title-date'>(Juni - Juli 2026)</span>
               </h3>
               <p className='portofolio-detail'>
-                A full-stack movie watchlist application built with Next.js App Router, Express.js, Prisma ORM, and PostgreSQL. Users can securely manage personal watchlists through JWT authentication and a modern responsive interface.
+                A full-stack movie watchlist application built with Next.js App Router, Express.js, Prisma ORM, and PostgreSQL. Users can securely manage personal watchlists and add own movie list through JWT authentication and a modern responsive interface.
               </p>
             </Link>
           </div>
