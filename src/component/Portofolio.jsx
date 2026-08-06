@@ -17,12 +17,25 @@ function Portofolio() {
         </div>
         <div className="w-full flex flex-wrap justify-center">
           <div className="portofolio-card">
+            <Link to="https://watchlistmovieapp.vercel.app/" target='_blank' alt='Movie Watchlist'>
+              <div className="portofolio-img-wrap">
+                <img src="img/portofolio/watchlistmovieapp.png" alt="Movie Watchlist" className='portofolio-img'/>
+              </div>
+              <h3 className='portofolio-title'>
+                Movie Watchlist App <span className='portofolio-title-date'>(Juni - Juli 2026)</span>
+              </h3>
+              <p className='portofolio-detail'>
+                A full-stack movie watchlist application built with Next.js App Router, Express.js, Prisma ORM, and PostgreSQL. Users can securely manage personal watchlists through JWT authentication and a modern responsive interface.
+              </p>
+            </Link>
+          </div>
+          <div className="portofolio-card">
             <Link to="https://ayana-clone.vercel.app/" target='_blank' alt='Ayana App'>
               <div className="portofolio-img-wrap">
                 <img src="img/portofolio/ayana-clone.png" alt="Ayana App" className='portofolio-img'/>
               </div>
               <h3 className='portofolio-title'>
-                AYANA Bali Clone Webpage <span className='portofolio-title-date'>(Feb 2026 - Sekarang)</span>
+                AYANA Bali Clone Webpage <span className='portofolio-title-date'>(Feb - Juni 2026)</span>
               </h3>
               <p className='portofolio-detail'>
                 A high-fidelity luxury hotel website clone inspired by AYANA Bali, built with Next.js and Tailwind CSS, focused on recreating responsive layouts, advanced scroll interactions, and premium visual presentation to emulate a modern hospitality web experience.
