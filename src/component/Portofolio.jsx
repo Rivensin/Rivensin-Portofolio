@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import { portofolio } from "../const/portofolio"
 
 function Portofolio() {
   return (
@@ -16,123 +17,21 @@ function Portofolio() {
           </p>
         </div>
         <div className="w-full flex flex-wrap justify-center">
-          <div className="portofolio-card">
-            <Link to="https://watchlistmovieapp.vercel.app/" target='_blank' alt='Movie Watchlist'>
-              <div className="portofolio-img-wrap">
-                <img src="img/portofolio/watchlistmovieapp.png" alt="Movie Watchlist" className='portofolio-img'/>
-              </div>
-              <h3 className='portofolio-title'>
-                Movie Watchlist App <span className='portofolio-title-date'>(Juni - Juli 2026)</span>
-              </h3>
-              <p className='portofolio-detail'>
-                A full-stack movie watchlist application built with Next.js App Router, Express.js, Prisma ORM, and PostgreSQL. Users can securely manage personal watchlists and add own movie list through JWT authentication and a modern responsive interface.
-              </p>
-            </Link>
-          </div>
-          <div className="portofolio-card">
-            <Link to="https://ayana-clone.vercel.app/" target='_blank' alt='Ayana App'>
-              <div className="portofolio-img-wrap">
-                <img src="img/portofolio/ayana-clone.png" alt="Ayana App" className='portofolio-img'/>
-              </div>
-              <h3 className='portofolio-title'>
-                AYANA Bali Clone Webpage <span className='portofolio-title-date'>(Feb - Juni 2026)</span>
-              </h3>
-              <p className='portofolio-detail'>
-                A high-fidelity luxury hotel website clone inspired by AYANA Bali, built with Next.js and Tailwind CSS, focused on recreating responsive layouts, advanced scroll interactions, and premium visual presentation to emulate a modern hospitality web experience.
-              </p>
-            </Link>
-          </div>
-          <div className="portofolio-card">
-            <Link to="https://dlooti.vercel.app/" target='_blank' alt='Dlooti App'>
-              <div className="portofolio-img-wrap">
-                <img src="img/portofolio/dlooti.png" alt="Dlooti App" className='portofolio-img'/>
-              </div>
-              <h3 className='portofolio-title'>
-                Dlooti Webpage <span className='portofolio-title-date'>(Juni 2025 - Juli 2025)</span>
-              </h3>
-              <p className='portofolio-detail'>
-                Dlooti, a cake shop product catalog website based on Next.js and Firebase, makes it easy for users to browse products like soft cookies, brownies, and custom cakes, and leave reviews after logging in.
-              </p>
-            </Link>
-          </div>
-          <div className="portofolio-card">
-            <Link to="https://dlooti-tracking-package.vercel.app/" target='_blank' alt='Dlooti Tracking App'>
-              <div className="portofolio-img-wrap">
-                <img src="img/portofolio/dlooti-tracking.png" alt="Dlooti Tracking App" className='portofolio-img'/>
-              </div>
-              <h3 className='portofolio-title'>
-                Dlooti Tracking Delivery <span className='portofolio-title-date'>(Agustus 2025 - September 2025)</span>
-              </h3>
-              <p className='portofolio-detail'>
-                Next.js + Firebase app enabling real-time driver tracking, geocoded addresses, and delivery status management to give the information about delivery to the client.
-              </p>
-            </Link>
-          </div>
-          <div className="portofolio-card">
-            <Link to="https://https://github.com/Rivensin/Book-Track-App-ReactNative" target='_blank' alt='React Native'>
-              <div className="portofolio-img-wrap">
-                <img src="img/portofolio/react-native-booktrack-project.jpeg" alt="React Native" className='portofolio-img'/>
-              </div>
-              <h3 className='portofolio-title'>                
-                BookTrack Mobile App with ReactNative <span className='portofolio-title-date'>(Januari 2026)</span>
-              </h3>
-              <p className='portofolio-detail'>
-              React Native (Expo) mobile app for managing personal book collections with user authentication, enabling registered users to log in, create and manage their own book collections
-              </p>
-            </Link>
-          </div>  
-          <div className="portofolio-card">
-            <Link to="https://github.com/Rivensin/laravel-nextjs" target='_blank' alt='Laravel Nextjs'>
-              <div className="portofolio-img-wrap">
-                <img src="img/portofolio/laravel-nextjs.png" alt="Laravel Nextjs" className='portofolio-img'/>
-              </div>
-              <h3 className='portofolio-title'>
-                Product Management Web With Laravel & Nextjs <span className='portofolio-title-date'>(November 2025 - Desember 2025)</span>
-              </h3>
-              <p className='portofolio-detail'>
-              The Product Management is a platform created by Laravel as backend and Nextjs as frontend with user authentication, enabling registered users to log in, create and manage their own product, and make receipt for the sales.
-              </p>
-            </Link>
-          </div>  
-          <div className="portofolio-card">
-            <Link to="https://rivensin.github.io/React-Blog-App/" target='_blank' alt='React Blog App'>
-              <div className="portofolio-img-wrap">
-                <img src="img/portofolio/blog-app.png" alt="React Blog App" className='portofolio-img'/>
-              </div>
-              <h3 className='portofolio-title'>
-                Blog App <span className='portofolio-title-date'>(Februari 2025 - April 2025)</span>
-              </h3>
-              <p className='portofolio-detail'>
-              The Blog App is a platform with user authentication, enabling registered users to log in, create and manage their own posts, and explore posts from other users.
-              </p>
-            </Link>
-          </div>     
-          <div className="portofolio-card">
-            <Link to="https://rivensin.github.io/amazon-copy.com/" target='_blank' alt="Amazon Clone">
-              <div className="portofolio-img-wrap">
-                <img src="img/portofolio/amazon.png" alt="Amazon Clone" className='portofolio-img'/>
-              </div>
-              <h3 className='portofolio-title'>
-                Simple Amazon E-Commerce Web <span className='portofolio-title-date'>(Desember 2024)</span>
-              </h3>
-              <p className='portofolio-detail'>
-                A simple copy Of Amazon E-commerce Website built with HTML,CSS,JavaScript to practice JavaScript feature
-              </p>
-            </Link>
-          </div>  
-          <div className="portofolio-card">
-            <Link to="https://rivensin.github.io/Youtube-Home/" target='_blank' alt='Youtube'>
-              <div className="portofolio-img-wrap">
-                <img src="img/portofolio/youtube-project.png" alt="Youtube" className='portofolio-img'/>
-              </div>
-              <h3 className='portofolio-title'>
-                Landing Page Youtube <span className='portofolio-title-date'>(Desember 2024)</span>
-              </h3>
-              <p className='portofolio-detail'>
-              A simple landing page built with HTML & CSS to practice utility classes, layouts, and responsiveness.
-              </p>
-            </Link>
-          </div>                   
+          {portofolio.map(porto => (
+            <div className="portofolio-card">
+              <Link to={porto.link} target='_blank'>
+                <div className="portofolio-img-wrap">
+                  <img src={porto.img} alt={porto.title} className='portofolio-img'/>
+                </div>
+                <h3 className='portofolio-title'>
+                  {porto.title} <span className='portofolio-title-date'>{porto.date}</span>
+                </h3>
+                <p className='portofolio-detail'>
+                  {porto.desc}
+                </p>
+              </Link>
+            </div>
+          ))}                         
         </div>
       </div>
     </section>

@@ -18,7 +18,7 @@ function Hero() {
           <p className='font-medium text-secondary leading-relaxed 2xl:text-lg text-justify mb-10'>
             Setiap proyek yang saya tampilkan merefleksikan proses belajar, eksplorasi, dan semangat saya dalam dunia pengembangan web.
           </p>
-          <p className="font-semibold">
+          <p className="font-bold text-dark 2xl:text-xl">
             Skills
           </p>
 
